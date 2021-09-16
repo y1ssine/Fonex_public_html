@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Pricing Table Test</title>
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+.demo10{margin-bottom: 30px; margin-top: 50px;}
+.pricingTable10{text-align:center}
+.pricingTable10 .pricingTable-header{
+    /*padding:30px 0;*/
+    background: linear-gradient(to left, #22205f, #262626);
+    position:relative;transition:all .3s ease 0s}
+.pricingTable10:hover .pricingTable-header{}
+.pricingTable10 .pricingTable-header:after,.pricingTable10 .pricingTable-header:before{
+    content:"";width:16px;height:16px;border-radius:50%;border:1px solid #d9d9d8;position:absolute;bottom:12px}
+.pricingTable10 .pricingTable-header:before{left:40px}
+.pricingTable10 .pricingTable-header:after{right:40px}
+.pricingTable10 .heading{
+    font-size:20px;color:#ec1c3a;text-transform:uppercase;letter-spacing:2px;margin-top:0}
+.pricingTable10 .price-value{display:inline-block;position:relative;font-size:55px;font-weight:700;color:white;transition:all .3s ease 0s}
+.pricingTable10:hover .price-value{color:#fff}
+.pricingTable10 .currency{font-size:30px;font-weight:700;position:absolute;top:6px;left:-19px}
+.pricingTable10 .month{font-size:16px;color:#fff;position:absolute;bottom:15px;right:-30px;text-transform:uppercase}
+.pricingTable10 .pricing-content{padding-top:50px;background:#fff;position:relative}
+.pricingTable10 .pricing-content:after,.pricingTable10 .pricing-content:before{content:"";width:16px;height:16px;border-radius:50%;border:1px solid #7c7c7c;position:absolute;top:12px}
+.pricingTable10 .pricing-content:before{left:40px}
+.pricingTable10 .pricing-content:after{right:40px}
+.pricingTable10 .pricing-content ul{padding:0 20px;margin:0;list-style:none}
+.pricingTable10 .pricing-content ul:after,.pricingTable10 .pricing-content ul:before{content:"";width:8px;height:46px;border-radius:3px;background:linear-gradient(to bottom,#818282 50%,#727373 50%);position:absolute;top:-22px;z-index:1;box-shadow:0 0 5px #707070;transition:all .3s ease 0s}
+.pricingTable10:hover .pricing-content ul:after,.pricingTable10:hover .pricing-content ul:before{background:linear-gradient(to bottom,#40c4db 50%,#34bacc 50%)}
+.pricingTable10 .pricing-content ul:before{left:44px}
+.pricingTable10 .pricing-content ul:after{right:44px}
+.pricingTable10 .pricing-content ul li{font-size:20px;font-weight:700;color:#1a1a1a;padding:10px 0;border-bottom:1px solid #d9d9d8}
+.pricingTable10 .pricing-content ul li:last-child{border-bottom:none}
+.pricingTable10:hover .pricing-content{
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    box-shadow: 3px 3px 7px 5px black;
+    transform: rotateY(180deg);
+}
+.flip-box {
+  background-color: transparent;
+  width: 300px;
+  height: 200px;
+  border: 1px solid #f1f1f1;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side */
+.flip-box-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-box-back {
+  background-color: dodgerblue;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.pricingTable10 .read{display:inline-block;font-size:16px;color:#fff;text-transform:uppercase;background:#22205f;padding:8px 25px;margin:30px 0;transition:all .3s ease 0s}
+.pricingTable10 .read:hover{text-decoration:none}
+.pricingTable10:hover .read{background:#22205f}
+sup{
+    vertical-align: super;
+    font-size: 20px;
+}
+.pricing-content{
+    border-radius: 5px;
+    border: 2px solid #22205f;
+}
+@media only screen and (max-device-width: 480px) {
+  .pricingTable10 .pricing-content ul li{
+    font-size: 15px!important;
+ }
+ .pricingTable10 .price-value{
+    font-size: 40px!important;
+ }
+ .pricingTable10 .month{
+    font-size: 25px!important;
+    right: -25px!important;
+    bottom: 5px!important;
+ }
+ .pricingTable10 .heading{
+    font-size: 30px!important;
+ }
+ .pricingTable10{
+    margin-bottom: 30px;
+ }
+}
+sup2{
+    vertical-align: super;
+    font-size: 13px;
+}
+@media only screen and (max-device-width: 768px){
+  .pricingTable10 .pricing-content ul li{
+    font-size: 15px!important;
+ }
+ .pricingTable10 .price-value{
+    font-size: 40px!important;
+ }
+ .pricingTable10 .month{
+    font-size: 25px!important;
+    right: -35px!important;
+    bottom: 5px!important;
+ }
+ .pricingTable10 .heading{
+    font-size: 30px!important;
+ }
+ .pricingTable10{
+    margin-bottom: 30px;
+ }
+ .container{
+    width: 100%!important;
+ }
+}
+sup2{
+    vertical-align: super;
+    font-size: 13px;
+}
+.kc_clfw{
+    height: 20px!important;
+}    
+// toggle styling
+.slideToggle{
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  i {
+    margin: 0 15px;
+  }
+}
+.form-switch {
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.form-switch i {
+  position: relative;
+  display: inline-block;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #DFDFDF;
+  border-radius: 15px;
+  transition: all 0.3s linear;
+}
+.form-switch i::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 40px;
+  height: 22px;
+  background-color: #00CE6C;
+  border-radius: 15px;
+  transform: translate3d(4px, 3px, 0);
+  transition: all 0.2s ease-in-out;
+}
+
+.form-switch input { display: none; }
+
+// .form-switch input:checked + i { background-color: #0274D6; }
+
+.form-switch input:checked + i::after { transform: translate3d(54px, 3px, 0); }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+      <div class="slideToggle">
+        <label class="form-switch">
+          <span class="beforeinput text-success">
+            MONTHLY
+          </span>
+          <input type="checkbox" id="js-contcheckbox">
+          <i></i>
+          <span class="afterinput">
+            ANNUAL
+          </span>
+        </label>
+      </div>
+<section class="pakete">
+    <div class="demo10">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 wow fadeIn" data-wow-delay="0s">
+                        <div class="pricingTable10">
+                            <div class="pricingTable-header">
+                                <h3 class="heading">Standard</h3>
+                                <span class="price-value">
+                                    <span class="currency">$</span>17.21<sup>1</sup>
+                                    <span class="month">/mo</span>
+                                </span>
+                            </div>
+                            <div class="flip-box">
+                              <div class="flip-box-inner">
+                                <div class="flip-box-front">
+                            <div class="pricing-content">
+                                <ul>
+                                    <li class="mobile">Call management and phone system administration</li>
+                                    <li>Mobile apps for iPhone®, iPad®, and Android™</li>
+                                    <li>Unlimited calling <sup2>5</sup2></li>
+                                    <li><b style="color: red;font-weight: 1000;">1,000 minutes</b> Toll-free <sup2>6</sup2></li>
+                                    <li>Unlimited conference calling</li>
+                                    <li>Internet Fax <sup2>5</sup2></li>
+                                    <li>Business SMS</li>
+                                    <li>US-based Support <sup2>8</sup2></li>
+                                    <li>US-based implementation <sup2>8</sup2></li>
+                                    <li>Unlimited video meetings with screen sharing from desktop and mobile: <b style="color: red;font-weight: 1000;">4</b> people per meeting</li>
+                                    <li>Glip for team implementation</li>
+                                    <li>Multi-level auto attendant</li>
+                                    <li>99% high-availbility</li>
+                                    <li>Intergrations with Microsoft and Google</li>
+                                    <li>Phone Rentals <sup2>7</sup2></li>
+                                    <li>Call log reports</li>
+                                    <li><s>Quality of Service reports</s></li>
+                                    <li><s>Custom app development and deployment</s></li>
+                                    <li><s>Inbound Caller ID name</s></li>
+                                    <li>HD voice</li>
+                                    <li><s>Automatic call recording</s></li>
+                                    <li>Multi-level auto attendant</li>
+                                    <li><s>Integration with Saleforce, Zendesk, and Desk.com</s></li>
+                                    <li><s>Single Sign-On</s></li>
+                                    <li><s>Voicemail-to-text</s></li>
+                                </ul>
+                                <a href="https://fonexinc.com/standard-pricing-structure/" class="read">Learn More</a>
+                                <button class="show-me_1">Details</button>
+                            </div>
+                                   <div class="flip-card-back">
+        <h1>Paket 1</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto natus labore dicta excepturi ab odit autem dolorem nulla neque sit laudantium sapiente aperiam magni nihil sed cupiditate asperiores at iure.<br /><br />No. 1
+        </p>
+        <button class="hide-me_1"></button>
+  </div>
+</div>
+</div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 wow fadeIn" data-wow-delay="0s">
+                        <div class="pricingTable10">
+                            <div class="pricingTable-header">
+                                <h3 class="heading">Premium</h3>
+                                <span class="price-value">
+                                    <span class="currency">$</span>26.96<sup>2</sup>
+                                    <span class="month">/mo</span>
+                                </span>
+                            </div>
+                            <div class="pricing-content">
+                                <ul>
+                                    <li>Call management and phone system administration</li>
+                                    <li>Mobile apps for iPhone®, iPad®, and Android™</li>
+                                    <li>Unlimited calling <sup2>5</sup2></li>
+                                    <li><b style="color: red;font-weight: 1000;">2,500</b> minutes Toll-free <sup2>6</sup2></li>
+                                    <li>Unlimited conference calling</li>
+                                    <li>Internet Fax <sup2>5</sup2></li>
+                                    <li>Business SMS</li>
+                                    <li>US-based Support <sup2>8</sup2></li>
+                                    <li>US-based implementation <sup2>8</sup2></li>
+                                    <li>Unlimited video meetings with screen sharing from desktop and mobile: <span style="color: red;font-weight: 1000;">50 </span>people per meeting</li>
+                                    <li>Glip for team implementation</li>
+                                    <li>Multi-level auto attendant</li>
+                                    <li>99% high-availbility</li>
+                                    <li>Intergrations with Microsoft and Google</li>
+                                    <li>Phone Rentals <sup2>7</sup2></li>
+                                    <li>Call log reports</li>
+                                    <li>Qaality of service reports</li>
+                                    <li>Custom app development and deployment</li>
+                                    <li>Inbound Caller ID name</li>
+                                    <li>HD voice</li>
+                                    <li>Automatic call recording</li>
+                                    <li>Multi-level auto attendant</li>
+                                    <li>Integration with Saleforce, Zendesk, and Desk.com</li>
+                                    <li>Single Sign-On</li>
+                                    <li><s>Voicemail-to-text</s></li>
+                                </ul>
+                                <a href="https://fonexinc.com/premium-pricing-structure/" class="read">Learn More</a>
+                                <button class="show-me_1">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 wow fadeIn" data-wow-delay="0s">
+                        <div class="pricingTable10">
+                            <div class="pricingTable-header">
+                                <h3 class="heading">Enterprise</h3>
+                                <span class="price-value">
+                                    <span class="currency">$</span>33.71<sup>3</sup>
+                                    <span class="month">/mo</span>
+                                </span>
+                            </div>
+                            <div class="pricing-content">
+                                <ul>
+                                    <li>Call management and phone system administration</li>
+                                    <li>Mobile apps for iPhone®, iPad®, and Android™</li>
+                                
+                                    <li>Unlimited calling <sup2>5</sup2></li>
+                                    <li><b style="color: red;font-weight: 1000;">10,000</b> minutes Toll-free <sup2>6</sup2></li>
+                                    <li>Unlimited conference calling</li>
+                                    <li>Internet Fax <sup2>5</sup2></li>
+                                    <li>Business SMS</li>
+                                    <li>US-based Support <sup2>8</sup2></li>
+                                    <li>US-based implementation <sup2>8</sup2></li>
+                                    <li>Unlimited video meetings with screen sharing from desktop and mobile: <b style="color: red;font-weight: 1000;">75 </b>people per meeting</li>
+                                    <li>Glip for team implementation</li>
+                                    <li>Multi-level auto attendant</li>                                  
+                                    <li>99% high-availbility</li>
+                                    <li>Intergrations with Microsoft and Google</li>
+                                    <li>Phone Rentals <sup2>7</sup2></li>
+                                    <li>Call log reports</li>
+                                    <li>Qaality of service reports</li>
+                                    <li>Custom app development and deployment</li>
+                                    <li>Inbound Caller ID name</li>
+                                    <li>HD voice</li>
+                                    <li>Automatic call recording</li>
+                                    <li>Multi-level auto attendant</li>
+                                    <li>Integration with Saleforce, Zendesk, and Desk.com</li>
+                                    <li>Single Sign-On</li>
+                                    <li>Voicemail-to-text</li>
+                                </ul>
+                                <a href="https://fonexinc.com/enterprise-pricing-structure/" class="read">Learn More</a>
+                                <button class="show-me_1">Details</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+</section>
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<script>
+    $(document).ready (function(){
+            // 1
+        $(".show-me_1").on("click", function() {
+          $(".box").addClass("flip1");
+        });
+        $(".hide-me_1").on("click", function() {
+          $(".box").removeClass("flip1");  
+        });
+    })
+</script>
+
+</body>
+</html>

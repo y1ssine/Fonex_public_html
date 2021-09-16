@@ -1,0 +1,1738 @@
+body {
+  background: #fff;
+ 
+}
+
+p, .qual-list {
+  margin: 0 0 15px;
+  font-size: 1.2rem;
+  color: #243762;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+.MT65 {
+  margin-top: 65px;
+}
+
+ul.list-pts {
+  margin-left: 18px;
+}
+
+#product_listing .classic-grid h3.product-name, .classic-grid h3.product-name {
+    line-height: 25px;
+}
+
+.product-attributes div:nth-child(1) {
+    display: none;
+}
+span.attribute-label-listing {
+    display: none;
+}
+
+.product-attributes div:nth-child(2) {
+    text-decoration: line-through;
+}
+
+.classic-grid .product-price {
+    font-size: 1.5rem;
+    margin-top: 25px;
+  	font-weight:600;
+}
+
+
+.entry-content h1:before,
+.entry-content h2:before,
+.entry-content h3:before,
+.entry-content h4:before,
+.entry-content h5:before,
+.entry-content h6:before {
+  background-image: none !important;
+}
+
+.site-navigation {
+  padding-top: 24px;
+}
+
+.header-title {
+  display: none;
+}
+
+.taxonomy-image {
+    display: none;
+}
+
+#site-branding {
+  width: 15%;
+  padding: 20px 0 20px 0px;
+  position: relative;
+}
+
+#masthead.scrolled #site-branding img {
+  padding-left: 30px;
+  
+}
+
+#masthead {
+  box-shadow: 0px 3px 7px rgba(27, 54, 100, 0.45);
+  transition:none !important;
+  background:#fff;
+
+}
+
+.site-navigation {
+  width: 85%;
+}
+
+.main-header{
+		min-height:215px !important;
+  	margin-bottom:0;
+}
+.top-tel {
+    float: left;
+}
+
+#top-bar ul.phone-num {
+    position: relative;
+    list-style: none;
+    float: left;
+    padding-left: 25px;
+}
+
+ul.phone-num p {
+    font-family: arial;
+    text-transform: uppercase;
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .5px;
+}
+
+#top-bar a {
+    color: #ec1c3a!important;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-family: 'Open Sans';
+    letter-spacing: 1px;
+}
+
+#top-bar .fa {
+    position: relative;
+    top: 1px;
+    font-size: 25px;
+   	padding: 0; 
+}
+
+#mega-menu-wrap-primary #mega-menu-primary li.mega-menu-flyout.mega-menu-item-has-children > a.mega-menu-link:after, #mega-menu-wrap-primary #mega-menu-primary li.mega-menu-flyout li.mega-menu-item-has-children > a.mega-menu-link:after, #mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item-has-children > a.mega-menu-link:after {
+    content: '\f140';
+    display: inline-block;
+    font-family: dashicons;
+    margin: 0 0 0 2px;
+}
+
+#mega-menu-wrap-primary .mega-menu-toggle {
+    background: #1b3664;
+}
+
+#mega-menu-primary #mega-menu-item-1324 {
+    padding-left: 30px !important;
+    left: 9px !important;
+    position: relative;
+}
+
+#mega-menu-primary #mega-menu-item-1324 a {
+    color: red !important;
+}
+
+#mega-menu-primary #mega-menu-item-1324 a:hover {
+    color: #000000 !important;
+}
+.blank-canvas-header {
+  padding-top: 125px !important;
+}
+
+li#mega-menu-item-404 {
+  margin-left: 68px !important;
+}
+
+.head-title{
+    float: left;
+    bottom: 150px;
+    background: rgba(237, 30, 60, 0.85);
+    color: #fff;
+    font-size: 2.5rem;
+    padding: 10px 90px 10px 10px;
+    border-radius: 5px;
+}
+.head-title:before {
+    content: none !important;
+}
+
+p.last-sentence {
+    margin-bottom: 65px;
+}
+/*--table styles begin--*/
+
+div#supsystic-table-1_10091 {
+  margin-top: 45px;
+}
+
+table.dataTable.no-footer {
+  border-bottom: 1px solid rgba(17, 17, 17, 0.18) !important;
+}
+
+.ptsEl.standard-subscript p:first-child:after {
+    content: "1";
+    color: #808080;
+    vertical-align: top;
+}
+
+.ptsEl.prem-subscript p:first-child:after {
+    content: "2";
+    color: #808080;
+    vertical-align: top;
+}
+
+.ptsEl.enterprise-subscript p:first-child:after{
+		content: "3";
+    color: #808080;
+    vertical-align: top;
+}
+
+/*--table styles end--*/
+
+/*--product gallery styles start--*/
+
+.classic-grid .product-attributes div:nth-child(odd) {
+    background: transparent;
+}
+
+/*--product gallery styles end--*/
+/*--product AFTER labels styles--*/
+
+[data-attachment-id]:after{
+    white-space: pre;
+		color:#000;
+  	font-size: 1.2rem;
+    font-weight: 600;
+}
+
+[data-attachment-id="623"]:after {
+    content: "Mitel 6867-SIP \A ";
+}
+[data-attachment-id="613"]:after {
+    content: "Mitel 6755i \A ";
+}
+[data-attachment-id="617"]:after {
+    content: "Mitel 6757i-CT \A ";
+}
+[data-attachment-id="612"]:after {
+    content: "Mitel 6757i-CTRP \A ";
+}
+[data-attachment-id="622"]:after {
+    content: "Mitel 6865 \A ";
+}
+[data-attachment-id="620"]:after {
+    content: "Mitel 6730i \A ";
+}
+[data-attachment-id="621"]:after {
+    content: "Mitel 6753 \A ";
+}
+[data-attachment-id="619"]:after {
+    content: "Mitel 6731i  \A ";
+}
+[data-attachment-id="617"]:after {
+    content: "Mitel 6757i-CT  \A ";
+}
+[data-attachment-id="618"]:after {
+    content: "Mitel 6873i \A ";
+}
+[data-attachment-id="614"]:after {
+    content: "Mitel 6863i \A ";
+}
+[data-attachment-id="613"]:after {
+    content: "Mitel 6755i \A";
+}
+[data-attachment-id="611"]:after {
+    content: "Mitel MiVoice6739i  \A";
+}
+[data-attachment-id="610"]:after {
+    content: "Mitel 6869 SIP  \A ";
+}
+
+
+[data-attachment-id="952"]:after {   
+		content: "Cisco 7960G \A ";
+}
+[data-attachment-id="953"]:after {   
+		content: "Cisco 7940 \A ";
+}
+[data-attachment-id="954"]:after {   
+		content: "Cisco SPA303 \A ";
+}
+[data-attachment-id="955"]:after {   
+		content: "Cisco SPA502G \A ";
+}
+[data-attachment-id="956"]:after {   
+		content: "Cisco SPA504G \A ";
+}
+[data-attachment-id="957"]:after {   
+		content: "Cisco SPA514G \A ";
+}
+[data-attachment-id="958"]:after {   
+		content: "CiscoS PA525G \A ";
+}
+[data-attachment-id="959"]:after {   
+		content: "Cisco SPA512GSPA5 \A ";
+}
+[data-attachment-id="960"]:after {   
+		content: "Cisco SPA112 \A ";
+}
+[data-attachment-id="961"]:after {   
+		content: "Cisco SPA122-2 \A ";
+}
+[data-attachment-id="962"]:after {   
+		content: "Cisco SPA2102 \A ";
+}
+[data-attachment-id="963"]:after {   
+		content: "Cisco SPA8000 \A ";
+}
+[data-attachment-id="1035"]:after {   
+		content: "Cisco SPA508G \A ";
+}
+[data-attachment-id="1036"]:after {   
+		content: "Cisco SPA509G \A ";
+}
+
+[data-attachment-id="443"]:after {  
+ 		content:"Edgewater Networks EM-4750 \A ";
+}
+[data-attachment-id="442"]:after {  
+ 		content:"Edgewater Networks EM-4601 \A ";
+}
+[data-attachment-id="441"]:after {  
+ 		content:"Edgewater Networks EM-4550 \A ";
+}
+
+
+[data-attachment-id="433"]:after {    
+		content:"Adtran TA908E (PRI-and-Hosted-PBX) \A ";
+}
+
+
+[data-attachment-id="453"]:after {
+		content: "Peplink Balance One \A ";
+}
+[data-attachment-id="452"]:after {
+		content: "Peplink Balance-20 \A ";
+}
+[data-attachment-id="451"]:after {
+		content: "Peplink Pepwave-SOHO \A ";
+}
+ 
+[data-attachment-id="457"]:after {
+		content:"VTech VSP736 \A ";
+}
+[data-attachment-id="458"]:after {
+		content:"VTech VSP735 \A ";
+}
+[data-attachment-id="459"]:after {
+		content:"VTech VSP726 \A ";
+}
+[data-attachment-id="460"]:after {
+		content:"VTech VSP725 \A ";
+}
+[data-attachment-id="456"]:after {
+		content:"VTech VSP600\A ";
+}
+
+[data-attachment-id="487"]:after {    
+		content:"Yealink CP860 \A ";
+}
+[data-attachment-id="486"]:after {    
+		content:"Yealink T19P \A ";
+}
+[data-attachment-id="485"]:after {    
+		content:"Yealink T22P \A ";
+}
+[data-attachment-id="484"]:after {    
+		content:"Yealink T23G2 \A ";
+}
+[data-attachment-id="483"]:after {    
+		content:"Yealink T26P \A ";
+}
+[data-attachment-id="482"]:after {    
+		content:"Yealink T27G \A ";
+}
+[data-attachment-id="481"]:after {    
+		content:"Yealink T27P \A ";
+}
+[data-attachment-id="480"]:after {    
+		content:"Yealink T28P \A ";
+}
+[data-attachment-id="479"]:after {    
+		content:"Yealink T29G\A ";
+}
+[data-attachment-id="478"]:after {    
+		content:"Yealink T38G \A ";
+}
+[data-attachment-id="477"]:after {    
+		content:"Yealink T41P \A ";
+}
+[data-attachment-id="475"]:after {    
+		content:"Yealink T42G \A ";
+}
+[data-attachment-id="474"]:after {    
+		content:"Yealink T46S \A ";
+}
+[data-attachment-id="473"]:after {    
+		content:"Yealink T46G \A ";
+}
+[data-attachment-id="471"]:after {    
+		content:"Yealink T48G \A ";
+}
+[data-attachment-id="470"]:after {    
+		content:"Yealink T48S \A ";
+}
+[data-attachment-id="469"]:after {    
+		content:"Yealink T236 \A ";
+}
+[data-attachment-id="468"]:after {    
+		content:"Yealink W52P \A ";
+}
+[data-attachment-id="467"]:after {    
+		content:"Yealink W56P \A ";
+}
+[data-attachment-id="466"]:after {    
+		content:"Yealink T32G \A ";
+}
+[data-attachment-id="472"]:after {    
+		content:"Yealink T46S \A ";
+}
+ 
+[data-attachment-id="515"]:after {   
+		content: "Snom 300 \A ";
+}
+[data-attachment-id="513"]:after {   
+		content: "Snom 320 \A ";
+}
+[data-attachment-id="512"]:after {   
+		content: "Snom 360 \A ";
+}
+[data-attachment-id="514"]:after {   
+		content: "Snom 370 \A ";
+}
+
+[data-attachment-id="556"]:after {    
+		content:"Polycom IP-670 \A ";
+}
+[data-attachment-id="555"]:after {    
+		content:"Polycom IP-650 \A ";
+}
+[data-attachment-id="554"]:after {    
+		content:"Polycom IP-560 \A ";
+}
+[data-attachment-id="553"]:after {    
+		content:"Polycom IP-550 \A ";
+}
+[data-attachment-id="552"]:after {    
+		content:"Polycom IP-501 \A ";
+}
+[data-attachment-id="550"]:after {    
+		content:"Polycom IP-430 \A ";
+}
+[data-attachment-id="549"]:after {    
+		content:"Polycom IP-450 \A ";
+}
+[data-attachment-id="548"]:after {    
+		content:"Polycom IP-301 \A ";
+}
+[data-attachment-id="547"]:after {    
+		content:"Polycom IP-335 \A ";
+}
+[data-attachment-id="546"]:after {    
+		content:"Polycom IP-601 \A ";
+}
+[data-attachment-id="984"]:after {    
+		content:"Polycom IP-321 \A";
+}
+[data-attachment-id="985"]:after {    
+		content:"Polycom IP-330 \A ";
+}
+[data-attachment-id="986"]:after {    
+		content:"Polycom IP-331 \A ";
+}
+[data-attachment-id="987"]:after {    
+		content:"Polycom IP-320 \A ";
+}
+[data-attachment-id="521"]:after {    
+		content:"Polycom VVX-201 \A ";
+}
+[data-attachment-id="520"]:after {    
+		content:"Polycom VVX-101 \A ";
+}
+[data-attachment-id="522"]:after {    
+		content:"Polycom VVX-300 \A ";
+}
+[data-attachment-id="523"]:after {    
+		content:"Polycom VVX-301 \A ";
+}
+[data-attachment-id="524"]:after {    
+		content:"Polycom VVX-310 \A ";
+}
+[data-attachment-id="525"]:after { 
+		content:"Polycom VVX-311 \A ";
+}
+[data-attachment-id="526"]:after {    
+		content:"Polycom VVX-400 \A ";
+}
+[data-attachment-id="527"]:after {    
+		content:"Polycom VVX-401 \A ";
+}
+[data-attachment-id="528"]:after {    
+		content:"Polycom VVX-410 \A ";
+}
+[data-attachment-id="529"]:after {    
+		content:"Polycom VVX-411 \A ";
+}
+[data-attachment-id="989"]:after { 
+		content:"Polycom VVX-500 \A ";
+}
+[data-attachment-id="990"]:after {    
+		content:"Polycom VVX-501 \A ";
+}
+[data-attachment-id="991"]:after {    
+		content:"Polycom VVX-600 \A ";
+}
+[data-attachment-id="992"]:after { 
+		content:"Polycom VVX-601 \A ";
+}
+
+
+[data-attachment-id="542"]:after { 
+		content:"Polycom Conference Phone IP-6000 \A ";
+}
+[data-attachment-id="541"]:after { 
+		content:"Polycom Conference Phone IP-5000 \A ";
+}
+[data-attachment-id="540"]:after { 
+		content:"Polycom Conference Phone IP-4000 \A ";
+}
+
+
+[data-attachment-id="571"]:after {  
+		content: "Panasonic KX-TGP500 \A ";
+}
+
+[data-attachment-id="572"]:after {  
+		content: "Panasonic KX-TGP550T02 \A ";
+}
+
+[data-attachment-id="573"]:after {  
+		content: "Panasonic KX-TGP600 \A ";
+}
+
+[data-attachment-id="574"]:after {  
+		content: "Panasonic KX-UT113 \A ";
+}
+
+[data-attachment-id="575"]:after {  
+		content: "Panasonic KX-UT123 \A ";
+}
+
+[data-attachment-id="576"]:after {  
+		content: "Panasonic KX-UT133 \A ";
+}
+
+[data-attachment-id="577"]:after {  
+		content: "Panasonic KX-UT136 \A ";
+}
+
+[data-attachment-id="579"]:after {  
+		content: "Panasonic KX-UTG300 \A ";
+}
+
+[data-attachment-id="580"]:after {  
+		content: "Panasonic UT670 \A ";
+}
+
+[data-attachment-id="977"]:after {  
+		content: "Panasonic KX-UTG200B \A ";
+}
+
+
+[data-attachment-id="609"]:after {   
+		content:"Grandstream GXP1628 \A ";
+}
+
+[data-attachment-id="607"]:after {   
+		content:"Grandstream GXP2100 \A ";
+}
+
+[data-attachment-id="608"]:after {   
+		content:"Grandstream XGP1450 \A ";
+}
+
+[data-attachment-id="606"]:after {   
+		content:"Grandstream GXP2124 \A ";
+}
+
+[data-attachment-id="604"]:after {   
+		content:"Grandstream GXP2140 \A ";
+}
+
+[data-attachment-id="605"]:after {   
+		content:"Grandstream GXP2130 \A ";
+}
+
+[data-attachment-id="603"]:after {   
+		content:"Grandstream GXP2160 \A ";
+}
+
+[data-attachment-id="602"]:after {   
+		content:"Grandstream GXP1628 \A ";
+}
+
+[data-attachment-id="444"]:after {   
+		content:"Grandstream HT702 \A ";
+}
+
+
+[data-attachment-id="596"]:after {   
+		content:"Digium D70\A ";
+}
+
+[data-attachment-id="594"]:after {   
+		content:"Digium D50 \A ";
+}
+
+[data-attachment-id="595"]:after {   
+		content:"Digium D40 \A ";
+}
+
+/*--product AFTER labels styles END--*/
+
+.fg-default .fg-item, .fg-default .fg-item-inner, .fg-default .fg-thumb {
+    min-height: 332px;
+}
+
+.fg-default .fg-image {
+    margin-bottom: 30px !important;
+}
+ul.product-descript {
+    text-align: left !important;
+    list-style: none;
+  	padding: 0 20px;
+}
+
+.foogallery-caption-desc {
+    padding: 0 4.2em !important;
+}
+
+/*--page header banners styles start--*/
+
+.page-id-633 .main-header, .page-id-635 .main-header, .page-id-637 .main-header, .page-id-639 .main-header, .page-id-641 .main-header,
+.page-id-629 .main-header, .page-id-643 .main-header, .page-id-647 .main-header, .page-id-645 .main-header{
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/phones-banner-img-category.jpg);
+  min-height: 400px !important;
+  background-position: 65% 2px;
+}/*--All VOIP phones pg--*/
+
+.page-id-651 .main-header, .page-id-1026 .main-header, .page-id-649 .main-header, .page-id-1031 .main-header, .page-id-653 .main-header{
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/analog-main-banner-img-2.jpg);
+  min-height: 400px !important;
+  background-position: 20% 60px;
+}/*--All Analog phones pg--*/
+
+.page-id-135 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/education-1.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--education pg--*/
+
+.page-id-151 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/real-estate-banner-1.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--real estate pg--*/
+
+.page-id-157 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/spa-banner-1.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--spa pg--*/
+
+.page-id-155 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/retail-banner-1.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--retail pg--*/
+
+.page-id-153 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/restuarant-banner-1.jpg);
+  height: 400px !important;
+  background-position: top;
+}/*--restaurant pg--*/
+
+.page-id-275 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/phones-pg-banner-2.jpg);
+  min-height: 400px !important;
+  background-position: top !important;
+}/*--phones pg--*/
+
+/*------------------------------------*/
+
+.page-id-62 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/PBX-VOIP-banner-1.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--PBX-VOIP pg--*/
+
+.page-id-91 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/efax-banner-1.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--efax pg--*/
+
+.page-id-98 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/security-banner-1.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--security pg--*/
+
+.page-id-66 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/sip-trunking-main-banner-img-3.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--SIP Trunking--*/
+
+.page-id-71 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/shared-sip-trunking-main-banner-img-1.jpg);
+  min-height: 400px !important;
+  background-position: inherit;
+}/*--Shared SIP Trunking--*/
+
+.page-id-74 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/mobile-app-main-banner-img-2.jpg);
+  min-height: 400px !important;
+  background-position: 100% 73px;
+}/*--Mobile Application--*/
+
+.page-id-79 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/unified-comm-main-banner-img-2.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--Unified Communications--*/
+
+.page-id-87 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/api-integration-main-banner-img-3.jpg);
+  min-height: 400px !important;
+  background-position: 84% 28px;
+}/*--API Integration--*/
+
+.page-id-94 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/new-location-main-banner-img-2.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--New Location--*/
+
+.page-id-107 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/new-phone-system-banner-1.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--new phone system pg--*/
+
+.page-id-145 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/insurance-main-banner-img.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--insurance pg--*/
+
+.page-id-102 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/mobile-workforce-main-banner-img-2.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--mobile-workforce pg--*/
+
+/*------------------------------------*/
+
+.page-id-111 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/office-banner-1.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--office pg--*/
+
+.page-id-115 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/sm-biz-main-banner-img-3.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--small biz  pg--*/
+
+.page-id-119 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/med-biz-main-banner-img-4.jpg);
+  min-height: 400px !important;
+  background-position-y: 64px;
+}/*--medium biz pg--*/
+
+.page-id-123 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/unified-comm-main-banner-img-3.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--large biz  pg--*/
+
+.page-id-126 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/large-biz-main-banner-img-4.jpg);
+  min-height: 400px !important;
+  background-position: 65% 74px;
+}/*--enterprise biz  pg--*/
+
+.page-id-147 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/manufacture-banner-1.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--manufacture pg--*/
+
+.page-id-143 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/healthcare-banner-1.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--healthcare pg--*/
+
+.page-id-141 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/government-banner-1.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--government pg--*/
+
+.page-id-133 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/construction-banner-1.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--construction pg--*/
+
+.page-id-128 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/collections-pg-banner-2.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--collections pg--*/
+
+.page-id-159 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/transport-banner-2.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--transportation pg--*/
+
+.page-id-149 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/legal-main-banner-img-3.jpg);
+  min-height: 400px !important;
+  background-position: 0 !important;
+}/*--legal pg--*/
+
+.page-id-138 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/fin-institution-main-banner-img-2.jpg);
+  min-height: 400px !important;
+  background-position: 100% 72px;
+}/*--financial institution pg--*/
+
+.page-id-202 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/how-it-works-main-banner-img-2.jpg);
+  min-height: 360px !important;
+  background-position: top;
+}/*--how it works pg--*/
+
+.page-id-223 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/service-plan-main-banner-img-2.jpg);
+  min-height: 360px !important;
+  background-position: right;
+}/*--service plan pg--*/
+
+.page-id-217 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/pricing-main-banner-img-2.jpg);
+  min-height: 360px !important;
+  background-position: right;
+  background-position-y: 52px;
+}/*--pricing pg--*/
+
+.page-id-290 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/contact-banner-img-4.jpg);
+  min-height: 360px !important;
+  background-position: top;
+}/*--contact pg--*/
+
+.page-id-667 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/blog-main-banner-img-2.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--blog pg--*/
+
+.page-id-49 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/career-main-banner-img-2.jpg);
+  min-height: 400px !important;
+  background-position: top;
+}/*--careers pg--*/
+
+.page-id-46 .main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/about-us-main-banner-img.jpg);
+  min-height: 400px !important;
+  background-position: 65% 28px;
+}/*--about us pg--*/
+
+.page-id-864 .main-header {
+  display: none;
+} /*--terms and conditions pg--*/
+
+.page-id-873 .main-header {
+  display: none;  
+}/*--privacy policy pg--*/
+
+/*--page header banners styles end--*/
+
+/*--slider styles begin--*/
+
+#home-slider {
+    padding: 0;
+    bottom: 148px;
+}
+.metaslider {
+  top: 90px;
+}
+
+.nivo-caption {
+  width: 35% !important;
+  float: right !important;
+  /*position: absolute !important;*/
+  right: 92px !important;
+  top: 150px!important;
+  padding: 50px !important;
+  background: rgba(255, 255, 255, 0.7)!important;
+  left: auto !important;
+  bottom: auto !important;
+}
+
+h1.banner-title {
+  font-size: 2rem;
+  line-height: 2rem;
+  color: #ef2124 !important;
+  margin-bottom: .5rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+
+h2.banner-body {
+  font-size: 1.3rem ;
+}
+
+.theme-default .nivo-caption a {
+  color: #fff;
+  border-bottom: none !important;
+  background: #ef2124;
+  padding: 12px 20px 14px;
+  border-radius: 7px;
+}
+
+/*--slider styles end--*/
+
+.feat-services {
+  background: rgba(54,120,181,1);
+  background: -moz-linear-gradient(-45deg, rgba(54,120,181,1) 0%, rgba(54,120,181,1) 15%, rgba(21,31,53,1) 83%, rgba(21,31,53,1) 100%);
+  background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(54,120,181,1)), color-stop(15%, rgba(54,120,181,1)), color-stop(83%, rgba(21,31,53,1)), color-stop(100%, rgba(21,31,53,1)));
+  background: -webkit-linear-gradient(-45deg, rgba(54,120,181,1) 0%, rgba(54,120,181,1) 15%, rgba(21,31,53,1) 83%, rgba(21,31,53,1) 100%);
+  background: -o-linear-gradient(-45deg, rgba(54,120,181,1) 0%, rgba(54,120,181,1) 15%, rgba(21,31,53,1) 83%, rgba(21,31,53,1) 100%);
+  background: -ms-linear-gradient(-45deg, rgba(54,120,181,1) 0%, rgba(54,120,181,1) 15%, rgba(21,31,53,1) 83%, rgba(21,31,53,1) 100%);
+  background: linear-gradient(135deg, rgba(54,120,181,1) 0%, rgba(54,120,181,1) 15%, rgba(21,31,53,1) 83%, rgba(21,31,53,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3678b5', endColorstr='#151f35', GradientType=1 );
+  /*background: #5c7bac;*/
+  padding: 35px;
+}
+
+.content-icon {
+  text-align: left;
+  color: #fff !important;
+}
+
+.intro-para {
+  margin-top: 60px;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+ul.serv-descript {
+  list-style: none !important;
+  font-size: 1.2rem;
+  color: #fff;
+  line-height: 1.7rem;
+  text-align: left;
+}
+
+ul.serv-descript li:before {
+  content: "\f14a";
+  font-family: FontAwesome;
+  padding-right: 0.5em;
+  color: #fff;
+}
+
+.content-title {
+  color: #fff;
+  text-align: left;
+  text-transform: capitalize !important;
+  font-weight: 300 !important;
+  font-size: 1.6rem !important;
+  margin: 0 !important;
+}
+
+.cool-process-detail > h2.content-title {
+  color: #243762;
+}
+
+.content-icon > .content-title {
+  color: white;
+}
+
+.cool-process-detail p {
+  margin-top: 25px;
+  line-height: 1.3em;
+}
+
+.content-icon i {
+  font-size: 55px;
+  color: #243762;
+  text-align: center;
+}
+
+article {
+  padding: 0 0 0 20px;
+  background: transparent !important;
+}
+
+.title-sec-sm,
+.title-sec {
+  /*margin-top: 65px;*/
+  background: #c8c9ce;
+  padding: 20px;
+  padding-bottom: 20px !important;
+  border-radius: 6px 6px 0 0;
+  letter-spacing: .75px;
+}
+
+.title-sec-sm{
+  margin-top: 65px;
+}
+
+  .page-id-232 .title-sec, .page-id-243 .title-sec, .page-id-247 .title-sec, .page-id-251 .title-sec,
+      	.page-id-254 .title-sec, .page-id-257 .title-sec{
+          margin-top: 50px;}
+          /*All feature pgs*/
+
+div#supsystic-table-9_wrapper {
+  margin-bottom: 60px;
+  margin-top: 50px;
+}
+
+p.one-sen-para {
+  /*margin-top: 60px;*/
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: -1px;
+}
+
+span.intro-sentence {
+  font-weight: 600;
+  font-size: 2rem;
+  /* font-style: italic; */
+  letter-spacing: -1.5px;
+  color: #1b3664;
+}
+
+#top-info{
+		display:none;
+}
+
+#top-bar {
+  font-size: .85rem;
+  border-bottom: 0;
+}
+
+#top-bar .widget {
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+}
+
+#top-bar .widget:nth-child(odd) {
+  text-align: right;
+  margin-right: 0;
+}
+
+#top-bar li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+#mega-menu-wrap-primary,
+#top-bar,
+.top-tel {
+  background: transparent;
+}
+
+.top-tel {
+  background: #1b3664;
+}
+
+#top-bar {
+ /* display: none!important;*/
+}
+
+#mega-menu-wrap-primary #mega-menu-primary {
+  text-align: right;
+}
+
+.site-navigation.centered {
+  border-top: 0;
+}
+
+li.request-quote {
+  background: #cd2528;
+  padding: 5px 7px;
+  text-transform: uppercase;
+  font-size: .85rem;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+/*----start filter gallery styles---*/
+
+.-skin-default .-items .-item .itembox {
+  width: 90%;
+  border: 2px solid #dadce7;
+  box-shadow: 3px 3px 5px #888888;
+  background: #FFFFFF;
+  position: relative;
+  margin: 0 auto;
+}
+
+/*----end filter gallery styles---*/
+
+/*----start icon features row styles---*/
+
+#menu-features a:hover {
+  opacity: 1;
+}
+
+#icon-feature-row {
+  background: #243862 !important;
+}
+
+ul#menu-features li {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+}
+
+li.menu-item-1 {
+  right: 56px;
+}
+
+li.menu-item-6 {
+  left: 202px;
+}
+
+li.menu-item-5 {
+  left: 142px;
+}
+
+li.menu-item-4 {
+  left: 83px;
+}
+
+li.menu-item-2 {
+  right: 16px;
+}
+
+li.menu-item-3 {
+  left: 24px;
+}
+
+.top-tel .fa {
+  background: rgb(57, 92, 153);
+}
+.menu-item-has-children:after {
+    font-family: 'FontAwesome';
+    font-size: 16px;
+    font-weight: normal;
+    text-shadow: none;
+    content: '\f107';
+    color: #bebebe;
+    /*position: absolute;*/
+    top: 17px;
+    right: 2px;
+}
+#menu-features a {
+  color: #fff;
+  padding: 0px 10px 20px 10px;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: 32px;
+  margin: 15px 0;
+  background: url(images/feature/features-nav-icon.png) center 25px no-repeat;
+  background-size: 32px;
+  font-size: 15px;
+  line-height: 1.3;
+  opacity: .5;
+  transition: all .3s ease-in-out;
+}
+
+.page-id-232 #icon-feature-row:after {
+  content: "\f0d7";
+  font-family: FontAwesome;
+  position: fixed;
+  top: 94px;
+  font-size: 35px;
+  left: 68px;
+  color: #1b3664;
+}
+
+header.main-header:after {
+    /*position: absolute;*/
+    background: rgba(237, 30, 60, 0.85);
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 0px 90px 0 10px;
+    border-radius: 5px;
+    top: 210px;
+}
+
+.page-id-232 header.main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/fonex-main-ban-sub-all-feat.jpg) !important;
+  margin-bottom: 0 !important;
+  min-height: 500px !important;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: top;
+  margin-top: 50px;
+}
+.page-id-232 header.main-header:after {
+  content: "Features";
+  right: 272px;
+}/*--feature pg--*/
+
+.post-243 #icon-feature-row:after {
+  content: "\f0d7";
+  font-family: FontAwesome;
+  position: fixed;
+  top: 94px;
+  font-size: 35px;
+  left: 278px;
+  color: #1b3664;
+}
+
+.page-id-243 header.main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/fonex-main-ban-sub-ph-num.jpg) !important;
+  margin-bottom: 0 !important;
+  min-height: 500px !important;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: top;
+  margin-top: 50px;
+}
+.page-id-243 header.main-header:after {
+  content: "Phone Numbers";
+  left: 185px;
+}/*--phone# pg--*/
+
+.post-247 #icon-feature-row:after {
+  content: "\f0d7";
+  font-family: FontAwesome;
+  position: fixed;
+  top: 94px;
+  font-size: 35px;
+  left: 490px;
+  color: #1b3664;
+}
+.page-id-247 header.main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/fonex-main-ban-sub-all-feat-3.jpg) !important;
+  margin-bottom: 0 !important;
+  min-height: 500px !important;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: top;
+  margin-top: 50px;
+}
+
+.page-id-247 header.main-header:after {
+  content: "Extensions";
+  right: 183px;
+}/*--extension pg--*/
+
+.post-251 #icon-feature-row:after {
+  content: "\f0d7";
+  font-family: FontAwesome;
+  position: fixed;
+  top: 94px;
+  font-size: 35px;
+  right: 415px;
+  color: #1b3664;
+}
+
+.page-id-251 header.main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/fonex-main-banners-sub-call-hand.jpg) !important;
+  margin-bottom: 0 !important;
+  min-height: 500px !important;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: top;
+  margin-top: 50px;
+}
+
+.page-id-251 header.main-header:after {
+  content: "Call Handling";
+  right: 180px;
+}/*--call handling pg--*/
+
+.post-254 #icon-feature-row:after {
+  content: "\f0d7";
+  font-family: FontAwesome;
+  position: fixed;
+  top: 94px;
+  font-size: 35px;
+  right: 216px;
+  color: #1b3664;
+}
+
+.page-id-254 header.main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/fonex-main-ban-sub-admin-1.jpg) !important;
+  margin-bottom: 0 !important;
+  min-height: 500px !important;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: top;
+  margin-top: 50px;
+}
+
+.page-id-254 header.main-header:after {
+  content: "Admin";
+  right: 275px;
+}/*--admin pg--*/
+
+.post-257 #icon-feature-row:after {
+  content: "\f0d7";
+  font-family: FontAwesome;
+  position: fixed;
+  top: 94px;
+  font-size: 35px;
+  right: 31px;
+  color: #1b3664;
+}
+
+.page-id-257 header.main-header {
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/fonex-main-ban-sub-1.jpg) !important;
+  margin-bottom: 0 !important;
+  min-height: 500px !important;
+  background-attachment: scroll;
+  background-size: cover;
+  background-position: top;
+  margin-top: 50px;
+}
+
+.page-id-257 header.main-header:after {
+  content: "Mobile";
+  left: 268px;
+}/*--mobile pg--*/
+
+#site-description {
+  display: none;
+}
+
+.menu-item-1 img.icon {
+  position: relative;
+  left: 63px;
+  bottom: 50px;
+}
+
+.post-232 img.icon.icons8-List,
+.post-232 a[title="All Features"] {
+  opacity: 1 !important;
+}
+
+.post-243 img.icon.icons8-Hashtag-Filled,
+.post-243 a[title="Phone Numbers"] {
+  opacity: 1 !important;
+}
+
+.post-247 img.icon.icons8-Queue,
+.post-247 a[title="Extensions"] {
+  opacity: 1 !important;
+}
+
+.post-251 img.icon.icons8-Location,
+.post-251 a[title="Call Handling"] {
+  opacity: 1 !important;
+}
+
+.post-254 img.icon.icons8-Administrative-Tools,
+.post-254 a[title="Admin"] {
+  opacity: 1 !important;
+}
+
+.post-257 img.icon.icons8-Mobile,
+.post-257 a[title="Mobile"] {
+  opacity: 1 !important;
+}
+
+.menu-item-2 img.icon {
+  position: relative;
+  left: 80px;
+  bottom: 50px;
+}
+
+.menu-item-3 img.icon {
+  position: relative;
+  left: 63px;
+  bottom: 50px;
+}
+
+.menu-item-4 img.icon {
+  position: relative;
+  left: 70px;
+  bottom: 50px;
+}
+
+.menu-item-5 img.icon {
+  position: relative;
+  left: 43px;
+  bottom: 50px;
+}
+
+.menu-item-6 img.icon {
+  position: relative;
+  left: 48px;
+  bottom: 50px;
+}
+
+/*----end icon features row styles---*/
+
+span.serv-def {
+  font-weight: 700;
+}
+
+.serv-list-big li:before {
+  content: "\f046";
+  font-family: FontAwesome;
+  padding-right: 0.5em;
+  color: #243963;
+}
+
+.serv-list-big {
+  list-style: none;
+  margin: 0;
+}
+
+ul.serv-list-big li {
+  margin-bottom: 15px;
+  color: #243762;
+  font-weight: 500;
+}
+
+.cta h2.center {
+  color: #fff;
+}
+
+.cta .kc-cta-desc {
+  color: #fff;
+}
+
+.kc-call-to-action .kc-cta-button a {
+  background: #af171a;
+  padding: 8px 24px;
+  transition: all .3s ease 0s;
+}
+
+.cta {
+  background: transparent;
+}
+
+.kc-cta-text {
+  font-size: 1.2rem;
+}
+
+.cta-row {
+  position: relative;
+  top: 74px;
+  /*background: #1b3764 !important;*/
+  background: #5576aa;
+  background-image: url(https://fonexinc.com/wp-content/uploads/2017/10/cta-row-bg-3.jpg);
+  background-repeat: no-repeat;
+  margin-top: 30px;
+}
+
+ul.serv-descript {
+  list-style: none !important;
+}
+
+.serv-list li {
+  padding-left: 15px;
+  list-style: none;
+  padding-bottom: 10px;
+  font-size: 1.2rem;
+  color: #243762;
+}
+
+.serv-list li:before {
+  content: "\f046";
+  font-family: FontAwesome;
+  padding-right: 0.5em;
+  color: #243963;
+}
+
+/*-----accordion styles---
+.kc_tabs_nav>.ui-tabs-active, .kc_tabs_nav>.ui-tabs-active:hover, .kc_tabs_nav>.ui-tabs-active>a, .kc_tabs_nav>.ui-tabs-active>a:hover {
+    color: #fff;
+    display: block;
+}
+.kc_tabs_nav>.ui-tabs-active>a, .kc_tabs_nav>li:hover, .kc_tabs_nav>li>a:hover {
+    background-color: #1b3664;
+    color: #333;
+}
+/*-----accordion styles ends---*/
+
+
+/*-----plan teir styles ---*/
+.ptsEl a:hover {
+    color: #d81c36 !important;
+  	text-decoration: underline;
+}
+/*-----plan teir styles ends---*/
+
+
+/*-----form styles---*/
+
+#Cleft {
+  width: 47%;
+  float: left;
+  margin-right: 6%;
+}
+
+#Cright {
+  width: 47%;
+  float: left;
+}
+
+/*-----blogstyles start---*/
+
+h3.blog-section-title {
+  margin-top: 45px;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+}
+
+/*-----blog styles end---*/
+
+section#strip-bg {
+  height: 125px;
+}
+
+.kc-multi-icons-wrapper a {
+  padding: 52px;
+  margin: 0;
+  margin-left: 40px;
+}
+
+.fonex-footer {
+  width: 1070px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+a.footer-logo {
+  position: relative;
+  bottom: 11px;
+}
+
+#colophon {
+  background: #0c1a32;
+}
+
+.top-footer {
+  margin: 50px 0 0 0;
+}
+
+a.footer-logo {
+    padding-left: 32px;
+}
+
+.privacy-policy p {
+    font-size: 0.95rem !important;
+}
+
+aside#a2a_follow_widget-2 {
+    margin-top: 15px !important;
+}
+
+.footnotes p {
+    font-size: .8rem;
+}
+
+.page-id-1226 .main-header, .page-id-1229 .main-header, .page-id-1234 .main-header{
+	min-height:180px !important;
+}
+
+/*--------Mobile styles-----------------*/
+    
+
+@media only screen and (max-width : 1350px) {
+.nivo-caption {
+  top: 90px!important;
+
+  }}
+
+/* Large Devices, Wide Screens */
+    @media only screen and (max-width : 1200px) {
+      #icon-feature-row{
+      		display: none;
+      }
+      
+      h1.banner-title {
+  			font-size: 1rem;
+  			line-height: 1.2rem;
+}
+
+			h2.banner-body {
+  				font-size: 13px ;
+}
+      .theme-default .nivo-caption a {
+      		font-size: 12px;
+      }
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (max-width : 992px) {
+      #site-branding{
+      		width: 100%;
+        	text-align:left;
+        
+      }
+      #masthead.scrolled #site-branding img {
+    			margin-top: 25px;
+        	max-height: 100%;
+       
+			}
+      .site-navigation {
+    			width: 100%;
+			}
+      
+      .kc-call-to-action {
+    			padding: 10px 15px;
+      }
+      
+      .nivo-caption {
+ 			 padding: 25px;
+}
+       div#metaslider_container_375 {
+    			display: none;
+			}
+      
+      a.footer-logo {
+   			 padding-left: 0;
+}
+    }
+
+
+    /* Small Devices, Tablets */
+    @media only screen and (max-width : 768px) {
+      .head-title{
+      		bottom: 0px;
+        	margin-top: 300px;
+        	width:100%;
+        
+      }
+      .main-header{
+      		display:none;
+        
+      }
+      
+      .title-sec-sm {
+    			margin-top: 160px;
+			}
+      div#metaslider_container_375 {
+    			display: none;
+			}
+      .feat-services {
+    			margin-bottom: 30px;
+}
+      #Cleft, #Cright{
+      		width: 100%;
+      }
+      .top-tel{
+      		background: transparent;
+      }
+      .top-tel .mobile-clear a, .top-tel .mobile-clear a:hover {
+   			 color: #1b3664;
+        	font-size: 1.2rem;
+}
+      #site-branding {
+    		padding: 20px 0 20px 15px;
+}
+      #masthead.scrolled #site-branding img {
+       
+        /*padding-left: 0px;*/
+      }
+}
+   
+
+@media screen and (min-width: 600px) and (max-width: 768px){
+			.title-sec-sm {
+   				 margin-top: 200px;
+				}
+
+}
+
+    @media only screen and (min-width : 768px) {
+				.page-id-232 .head-title{
+						display:none;
+          /*feature pg*/
+      }          
+        .page-id-243 .head-title, .page-id-247 .head-title, .page-id-251 .head-title,
+      	.page-id-254 .head-title, .page-id-257 .head-title{
+						display:none;
+          /*All feature pgs*/
+}
+    }
+
+@media screen and (max-width: 600px){
+	button#responsive-menu-button {
+    width: 40px;
+    height: 40px;
+    position: fixed;
+    top: 23px;
+    right: 5%;
+    background: #1b3664;
+  }
+
+	.site-navigation {
+    padding-top: 0;
+
+}
+
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link{
+		color: white;
+}
+#bottom-footer{
+  visibility:hidden!important;
+}
+#masthead.above, #masthead.scrolled{
+	background:linear-gradient(-60deg, grey, white);
+}
+#mega-menu-wrap-primary #mega-menu-primary > li.mega-menu-item > a.mega-menu-link{
+	color:white!important;
+}
+.main-header.below.has-smoothing-effect{
+  marigin-top: 60px!important;
+}

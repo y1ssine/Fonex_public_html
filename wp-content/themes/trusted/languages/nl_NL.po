@@ -1,0 +1,1292 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Trusted 1.9\n"
+"POT-Creation-Date: 2021-03-26 11:56+0000\n"
+"PO-Revision-Date: 2021-03-26 11:56+0000\n"
+"Last-Translator: \n"
+"Language-Team: uxlthemes.com\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: functions/translations.php\n"
+
+#: 404.php:11
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Oops! Die pagina kan niet gevonden worden."
+
+#: 404.php:13
+msgid "Maybe try a search?"
+msgstr "Een zoekopdracht proberen?"
+
+#: 404.php:15
+msgid "Browse our pages."
+msgstr "Blader door onze pagina’s."
+
+#. translators: %s: post title
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Eén reactie op &ldquo;%s&rdquo;"
+
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Reageer op &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s antwoorden op &ldquo;%2$s&rdquo;"
+
+#: comments.php:62
+msgid "Previous"
+msgstr "Vorige"
+
+#: comments.php:63
+msgid "Next"
+msgstr "Volgende"
+
+#: comments.php:71
+msgid "Comments are closed."
+msgstr "Reacties zijn gesloten."
+
+#: content-none.php:11
+msgid "Nothing Found"
+msgstr "Niets gevonden"
+
+#: content-none.php:15
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Klaar om je eerste bericht te publiceren? <a href=\"%1$s\">Begin hier</a>."
+
+#: content-none.php:19
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Sorry, maar we hebben geen resultaten gevonden. Probeer een andere zoekterm."
+
+#: content-none.php:24
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Het lijkt er op dat we niet kunnen vinden wat je zoekt. Wellicht kan een "
+"zoekopdracht helpen."
+
+#: content-page.php:16 content-single.php:21 content.php:34
+msgid "Pages:"
+msgstr "Pagina’s:"
+
+#. translators: %s: Name of current post
+#: content-page.php:27 functions/template-tags.php:76
+#, php-format
+msgid "Edit %s"
+msgstr "Bewerk %s"
+
+#: content.php:40
+msgid "Continue Reading"
+msgstr "Lees verder"
+
+#: functions.php:30
+msgid "Primary Menu"
+msgstr "Hoofdmenu"
+
+#: functions.php:31
+msgid "Footer Menu"
+msgstr "Footer Menu"
+
+#: functions.php:101
+msgid "Person Working on Laptop"
+msgstr "Persoon werkt op een laptop"
+
+#: functions.php:127
+msgid "Blog Sidebar"
+msgstr "Blog Sidebar"
+
+#: functions.php:129
+msgid "Sidebar for posts, blog index and archives."
+msgstr "Zijbalk voor posts, blog index en archieven."
+
+#: functions.php:137
+msgid "Home Page Sidebar"
+msgstr "Homepage zijbalk"
+
+#: functions.php:139
+msgid "Sidebar for the home page template."
+msgstr "Zijbalk voor de homepage template."
+
+#: functions.php:147
+msgid "Page Sidebar"
+msgstr "Pagina zijbalk"
+
+#: functions.php:149
+msgid "Sidebar for standard pages."
+msgstr "Zijbalk voor standaard pagina’s."
+
+#: functions.php:157
+msgid "Shop Sidebar"
+msgstr "Winkel Zijbalk"
+
+#: functions.php:159
+msgid "Sidebar for WooCommerce pages."
+msgstr "Zijbalk voor WooCommerce pagina’s."
+
+#: functions.php:167
+msgid "Top Bar"
+msgstr "Hoofd balk"
+
+#: functions.php:169
+msgid "Add your own content above the header."
+msgstr "Voeg je eigen inhoud toe boven de header."
+
+#: functions.php:177
+msgid "Footer Column 1"
+msgstr "Voettekst Kolom 1"
+
+#: functions.php:187
+msgid "Footer Column 2"
+msgstr "Footer kolom 2"
+
+#: functions.php:197
+msgid "Footer Column 3"
+msgstr "Footer kolom 3"
+
+#: functions.php:207
+msgid "Middle Footer"
+msgstr "Voettekst midden"
+
+#: functions.php:233 functions.php:285
+msgctxt "Google fonts: on or off"
+msgid "on"
+msgstr "op"
+
+#: functions.php:248 functions.php:297
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr "no-subset"
+
+#: functions.php:389
+msgid "Starter Sites"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:327
+#: functions/class-tgm-plugin-activation.php:328
+#, fuzzy
+#| msgid "Requires WooCommerce Plugin"
+msgid "Recommended Plugin"
+msgstr "Heeft de WooCommerce plugin nodig"
+
+#. translators: %s: plugin name.
+#: functions/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. translators: %s: plugin name.
+#: functions/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#. translators: 1: plugin name(s).
+#: functions/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "Setup your new website quickly with %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: plugin name(s).
+#: functions/class-tgm-plugin-activation.php:367
+#, php-format
+msgid ""
+"Did you know you can import demo content and set up your new website quickly "
+"and easily with %1$s?"
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:373
+msgid "Install plugin"
+msgid_plural "Install plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:378
+msgid "Update plugin"
+msgid_plural "Update plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:383
+#, fuzzy
+#| msgid "Activate About Section"
+msgid "Activate plugin"
+msgid_plural "Activate plugins"
+msgstr[0] "Activeer de ‘Over’ sectie"
+msgstr[1] "Activeer de ‘Over’ sectie"
+
+#: functions/class-tgm-plugin-activation.php:387
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:388
+#: functions/class-tgm-plugin-activation.php:829
+#: functions/class-tgm-plugin-activation.php:2536
+#: functions/class-tgm-plugin-activation.php:3583
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:389
+#: functions/class-tgm-plugin-activation.php:3162
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:390
+msgid "Plugins activated successfully:"
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/class-tgm-plugin-activation.php:392
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/class-tgm-plugin-activation.php:394
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#. translators: 1: dashboard link.
+#: functions/class-tgm-plugin-activation.php:396
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:397
+msgid "Dismiss this notice"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:398
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:399
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:524
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:525
+msgid "Update Required"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:936
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:936
+#: functions/class-tgm-plugin-activation.php:939
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:939
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1094
+msgid "Thank you for using the Trusted theme."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:1123
+#: functions/class-tgm-plugin-activation.php:2951
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#. translators: %s: version number
+#: functions/class-tgm-plugin-activation.php:1985
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2276
+msgid "Required"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2279
+msgid "Recommended"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2295
+msgid "WordPress Repository"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2298
+msgid "External Source"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2301
+msgid "Pre-Packaged"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2318
+msgid "Not Installed"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2322
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2324
+msgid "Active"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2330
+msgid "Required Update not Available"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2333
+msgid "Requires Update"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2336
+msgid "Update recommended"
+msgstr ""
+
+#. translators: 1: install status, 2: update status
+#: functions/class-tgm-plugin-activation.php:2345
+#, fuzzy, php-format
+#| msgid "Welcome to %1$s %2$s"
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "Welkom bij %1$s %2$s"
+
+#. translators: 1: number of plugins.
+#: functions/class-tgm-plugin-activation.php:2391
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: functions/class-tgm-plugin-activation.php:2395
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: functions/class-tgm-plugin-activation.php:2399
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: number of plugins.
+#: functions/class-tgm-plugin-activation.php:2403
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:2485
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2493
+msgid "Installed version:"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2501
+msgid "Minimum required version:"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2513
+msgid "Available version:"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2536
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2550
+msgid "Plugin"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2551
+msgid "Source"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2552
+msgid "Type"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2556
+msgid "Version"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2557
+msgid "Status"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: functions/class-tgm-plugin-activation.php:2606
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: functions/class-tgm-plugin-activation.php:2611
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#. translators: %2$s: plugin name in screen reader markup
+#: functions/class-tgm-plugin-activation.php:2617
+#, fuzzy, php-format
+#| msgid "Activate Shop Tabs"
+msgid "Activate %2$s"
+msgstr "Activeer de shop panelen"
+
+#: functions/class-tgm-plugin-activation.php:2687
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2720
+msgid "Install"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2726
+msgid "Update"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2729
+#, fuzzy
+#| msgid "Activate Shop Tabs"
+msgid "Activate"
+msgstr "Activeer de shop panelen"
+
+#: functions/class-tgm-plugin-activation.php:2760
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2762
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2803
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2805
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2911
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2937
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:2955
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions/class-tgm-plugin-activation.php:3161
+msgid "Plugin activation failed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: functions/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#. translators: 1: plugin name, 2: error message.
+#: functions/class-tgm-plugin-activation.php:3504
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/class-tgm-plugin-activation.php:3506
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:3510
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:3512
+#: functions/class-tgm-plugin-activation.php:3520
+msgid "Show Details"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:3512
+#: functions/class-tgm-plugin-activation.php:3520
+msgid "Hide Details"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:3513
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: functions/class-tgm-plugin-activation.php:3515
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:3518
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#. translators: 1: plugin name.
+#: functions/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: functions/class-tgm-plugin-activation.php:3521
+msgid "All installations have been completed."
+msgstr ""
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: functions/class-tgm-plugin-activation.php:3523
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: functions/customizer.php:24
+msgid "Site Title Color"
+msgstr "Site titel kleur"
+
+#: functions/customizer.php:40
+msgid "Phone Number"
+msgstr "Telefoonnummer"
+
+#: functions/customizer.php:57
+msgid "Site Title UPPERCASE"
+msgstr "Site titel in HOOFDLETTERS"
+
+#: functions/customizer.php:75
+#, fuzzy
+msgid "Header Image Layout"
+msgstr "Koptekstafbeelding Lay-out"
+
+#: functions/customizer.php:76
+#, fuzzy
+msgid "Select behind or below the logo/menu area."
+msgstr "Selecteer achter of onder het logo/menugebied."
+
+#: functions/customizer.php:100
+msgid "Minimum Height (Homepage)"
+msgstr ""
+
+#: functions/customizer.php:123
+msgid "Minimum Height (Other Pages)"
+msgstr ""
+
+#: functions/customizer.php:146
+msgid "Horizontal Offset (%)"
+msgstr "Horizontale offset (%)"
+
+#: functions/customizer.php:147
+msgid ""
+"Used to make the main focus of your image appear on smaller screens or where "
+"the image is wider than the visible screen. The default setting is 65%."
+msgstr ""
+"Wordt gebruikt om de hoofd focus van je afbeelding op kleine schermen te "
+"tonen of wanneer de afbeelding breder is dan het zichtbare scherm. De "
+"standaard instelling is 65%."
+
+#: functions/customizer.php:171
+msgid "Background Color"
+msgstr "Achtergrondkleur"
+
+#: functions/customizer.php:172
+msgid ""
+"Only takes effect if not using an image or an image with some transparency."
+msgstr ""
+"Alleen effectief wanneer er geen afbeelding of een afbeelding met "
+"transparantie wordt gebruikt."
+
+#: functions/customizer.php:190
+msgid "Color"
+msgstr "Kleur"
+
+#: functions/customizer.php:209
+msgid "No Color (Transparent Background)"
+msgstr "Geen kleur (transparante achtergrond)"
+
+#: functions/customizer.php:218 functions/theme-help.php:70
+msgid "Theme Options"
+msgstr "Thema Opties"
+
+#: functions/customizer.php:235
+msgid "Enable Reveal Animations"
+msgstr "Schakel verschijn animaties in"
+
+#: functions/customizer.php:252
+msgid "Primary Menu Centered"
+msgstr "Hoofdmenu gecentreerd"
+
+#: functions/customizer.php:270
+msgid "Primary Menu UPPERCASE"
+msgstr "Hoofdmenu in HOOFDLETTERS"
+
+#: functions/customizer.php:287
+msgid "Show Search Icon In Menu"
+msgstr "Toon zoek icoon in menu"
+
+#: functions/customizer.php:288
+msgid ""
+"Search icon will only display if you have set your own menu as Primary Menu "
+"in Appearance >> Menus"
+msgstr ""
+"Zoek icoon wordt alleen getoond als je je eigen menu hebt ingesteld als "
+"Hoofdmenu in Weergave >> Menu’s"
+
+#: functions/customizer.php:306
+msgid "Disable Headings Underline"
+msgstr "Schakel de onderlijning van koppen uit"
+
+#: functions/customizer.php:307
+msgid "H1, H2, H3, H4, H5, H6 headings in post/page content"
+msgstr "H1, H2, H3, H4, H5, H6 koppen in berichten/pagina inhoud"
+
+#: functions/customizer.php:318
+msgid "Page Title Alignment"
+msgstr "Page Title Alignment"
+
+#: functions/customizer.php:322 functions/customizer.php:403
+msgid "Left"
+msgstr "Links"
+
+#: functions/customizer.php:323
+msgid "Center"
+msgstr "Midden"
+
+#: functions/customizer.php:324 functions/customizer.php:404
+msgid "Right"
+msgstr "Rechts"
+
+#: functions/customizer.php:343
+msgid "Page Title Icon"
+msgstr "Pagina titel pictogram"
+
+#: functions/customizer.php:364
+msgid "Blog Title Icon"
+msgstr "Blog titel pictogram"
+
+#: functions/customizer.php:385
+msgid "Shop Title Icon"
+msgstr "Shop titel pictogram"
+
+#: functions/customizer.php:399
+msgid "Sidebar Position"
+msgstr "Zijbalk positie"
+
+#: functions/customizer.php:420
+#, fuzzy
+msgid "Enable Sticky Footer"
+msgstr "Sticky Footer inschakelen"
+
+#: functions/customizer.php:421
+#, fuzzy
+msgid ""
+"Position the footer at the bottom of the screen on pages with little content"
+msgstr "Plaats de voettekst onderaan het scherm op pagina's met weinig inhoud"
+
+#: functions/customizer.php:433
+msgid "Header Style"
+msgstr "Header stijl"
+
+#: functions/customizer.php:437
+msgid "Dark"
+msgstr "Donker"
+
+#: functions/customizer.php:438
+msgid "Light"
+msgstr "Licht"
+
+#: functions/customizer.php:455
+msgid "Primary Color"
+msgstr "Primaire kleur"
+
+#: functions/customizer.php:475
+msgid "Secondary Color"
+msgstr "Secundaire kleur"
+
+#: functions/customizer.php:495
+msgid "Text Color"
+msgstr "Tekstkleur"
+
+#: functions/customizer.php:515
+msgid "Headings Color"
+msgstr "Koptekst kleur"
+
+#: functions/customizer.php:524
+msgid "Typography"
+msgstr "Typografie"
+
+#: functions/customizer.php:535
+msgid "Header"
+msgstr "Header"
+
+#: functions/customizer.php:548
+msgid "Navigation"
+msgstr "Navigatie"
+
+#: functions/customizer.php:561
+msgid "Page Title"
+msgstr "Paginatitel"
+
+#: functions/customizer.php:574
+msgid "Content"
+msgstr "Inhoud"
+
+#: functions/customizer.php:587
+msgid "Headings"
+msgstr "Koppen"
+
+#: functions/customizer.php:600
+msgid "Footer"
+msgstr "Footer"
+
+#: functions/customizer.php:610
+msgid "Static Homepage Options"
+msgstr "Statische homepage opties"
+
+#: functions/customizer.php:620
+#, fuzzy
+#| msgid "Activate Featured Section"
+msgid "Activate and Sort Homepage Sections"
+msgstr "Activeer Uitgelicht sectie"
+
+#: functions/customizer.php:647
+#, fuzzy
+#| msgid "Static Homepage Options"
+msgid "Homepage Sections"
+msgstr "Statische homepage opties"
+
+#: functions/customizer.php:648 functions/customizer.php:843
+msgid ""
+"Check the box to display. Sortable: drag and drop into your preferred order."
+msgstr ""
+
+#: functions/customizer.php:660 functions/extras.php:1095
+msgid "Featured Services"
+msgstr "Uitgelichte diensten"
+
+#: functions/customizer.php:661
+msgid ""
+"By default this displays the 3 most recent posts. To override this, select a "
+"page for the first feature."
+msgstr ""
+"Standaard toont dit de 3 meest recente berichten. Selecteer een pagina voor "
+"de eerste optie om dit te overschrijven."
+
+#: functions/customizer.php:678
+msgid "Enable 'Read More' Buttons"
+msgstr "Schakel de ‘Lees Meer’ knoppen in"
+
+#: functions/customizer.php:700
+msgid "Feature "
+msgstr "Eigenschap "
+
+#: functions/customizer.php:721
+msgid "Icon"
+msgstr "Icoon"
+
+#: functions/customizer.php:740 functions/customizer.php:787
+msgid "Select Page"
+msgstr "Selecteer pagina"
+
+#: functions/customizer.php:741
+msgid ""
+"Displays title and excerpt of selected page. You can add an optional hand-"
+"crafted excerpt in the page editor (make sure []excerpt is checked in Screen "
+"Options)."
+msgstr ""
+"Toont de titel en de samenvatting van de geselecteerde pagina. Je kunt "
+"optioneel een zelf geschreven samenvatting in de pagina editor maken "
+"(verzeker je er van de []samenvatting is aangevinkt in de Cherm Opties."
+
+#: functions/customizer.php:751 functions/extras.php:1100
+msgid "About Section"
+msgstr "‘Over’ sectie"
+
+#: functions/customizer.php:752
+msgid "Displays title, excerpt and featured image of selected page."
+msgstr ""
+"Toont de titel, samenvatting en de uitgelichte foto van de geselecteerde "
+"pagina."
+
+#: functions/customizer.php:769
+msgid "Enable 'Read More' Button"
+msgstr "Schakel de ‘lees meer’ knop in"
+
+#: functions/customizer.php:797
+#, fuzzy
+#| msgid "Sidebar Position"
+msgid "Featured Image Position"
+msgstr "Zijbalk positie"
+
+#: functions/customizer.php:801
+msgid "Image Left"
+msgstr "Afbeelding links"
+
+#: functions/customizer.php:802
+msgid "Image Right"
+msgstr "Afbeelding rechts"
+
+#: functions/customizer.php:803
+msgid "Stacked"
+msgstr "Gestapeld"
+
+#: functions/customizer.php:804
+msgid "Stacked (Centered)"
+msgstr "Gestapeld (gecentreerd)"
+
+#: functions/customizer.php:813 functions/extras.php:1106
+msgid "Shop Tabs"
+msgstr "Shop panelen"
+
+#: functions/customizer.php:842
+msgid "Home Page Shop Tabs"
+msgstr "Homepagina shop panelen"
+
+#: functions/customizer.php:854 functions/extras.php:1117
+#, fuzzy
+msgid "Recent Posts Section"
+msgstr "Recente Berichten Sectie"
+
+#: functions/customizer.php:855
+#, fuzzy
+msgid "Displays your most recent posts."
+msgstr "Geeft uw meest recente berichten weer."
+
+#: functions/customizer.php:863 functions/extras.php:898
+#, fuzzy
+msgid "From Our Blog"
+msgstr "Van onze blog"
+
+#: functions/customizer.php:874
+msgid "Title"
+msgstr "Titel"
+
+#: functions/customizer.php:883 functions/extras.php:1122
+msgid "Call-to-action Panel"
+msgstr "Oproep-tot-actie paneel"
+
+#: functions/customizer.php:884
+msgid "Displays phone number and optional button link to selected page."
+msgstr ""
+"Toont het telefoonnummer en een optionele knop link naar een geselecteerde "
+"pagina."
+
+#: functions/customizer.php:902
+msgid "Select Page For Button Link"
+msgstr "Selecteer de pagina voor de knop link"
+
+#: functions/customizer.php:919
+msgid "Background Image"
+msgstr "Achtergrond afbeelding"
+
+#: functions/customizer.php:929 functions/customizer.php:940
+#: functions/customizer.php:1002
+#, fuzzy
+msgid "Go Pro"
+msgstr "Ga Pro"
+
+#: functions/customizer.php:931 functions/theme-help.php:110
+#, fuzzy
+msgid ""
+"Upgrade to Trusted Pro for even more cool features and customization options."
+msgstr ""
+"Upgrade naar Trusted Pro voor nog meer coole functies en aanpassingsopties."
+
+#: functions/customizer.php:985
+#, fuzzy
+msgid "More options available"
+msgstr "Meer opties beschikbaar"
+
+#: functions/customizer.php:994
+msgid "Documentation"
+msgstr "Documentatie"
+
+#: functions/customizer.php:1032
+#, fuzzy
+#| msgid "Search "
+msgid "Search..."
+msgstr "Zoeken "
+
+#: functions/extras.php:56
+msgid "Create your Primary Menu here"
+msgstr "Creëer je Hoofdmenu hier"
+
+#: functions/extras.php:87 functions/extras.php:728 functions/extras.php:759
+#: functions/extras.php:815 functions/extras.php:926
+msgid "Read More"
+msgstr "Lees meer"
+
+#: functions/extras.php:402 functions/extras.php:415
+msgid "Search for:"
+msgstr "Zoek naar:"
+
+#: functions/extras.php:407
+msgid "All"
+msgstr "Alle"
+
+#: functions/extras.php:415
+msgid "Search "
+msgstr "Zoeken "
+
+#: functions/extras.php:996
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#: functions/extras.php:996
+#, php-format
+msgid "Powered by %s"
+msgstr "Powered by %s"
+
+#: functions/extras.php:998
+#, php-format
+msgid "Theme: %2$s by %1$s"
+msgstr "Thema: %2$s door %1$s"
+
+#: functions/extras.php:1027
+msgid "Recent"
+msgstr "Recent"
+
+#: functions/extras.php:1033
+msgid "Featured"
+msgstr "Uitgelicht"
+
+#: functions/extras.php:1039
+msgid "Sale"
+msgstr "Sale"
+
+#: functions/extras.php:1045
+msgid "Top Selling"
+msgstr "Top verkopend"
+
+#: functions/extras.php:1051
+msgid "Top Rated"
+msgstr "Hoogst Gewaardeerd"
+
+#: functions/extras.php:1112
+#, fuzzy
+#| msgid "Content"
+msgid "Page Content"
+msgstr "Inhoud"
+
+#: functions/header-title.php:122
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Zoekresultaten voor: %s"
+
+#: functions/header-title.php:125
+msgid "404 Error"
+msgstr "404 Fout"
+
+#: functions/template-tags.php:36
+msgid "No Comments"
+msgstr "Geen reacties"
+
+#: functions/template-tags.php:38
+msgid " Comments"
+msgstr " Reacties"
+
+#: functions/template-tags.php:40
+msgid "1 Comment"
+msgstr "1 Reactie"
+
+#. translators: used between list items, there is a space after the comma
+#: functions/template-tags.php:61
+msgid ", "
+msgstr ", "
+
+#: functions/theme-help.php:19 functions/theme-help.php:32
+#, php-format
+msgid "Welcome to %1$s %2$s"
+msgstr "Welkom bij %1$s %2$s"
+
+#: functions/theme-help.php:19
+#, fuzzy
+#| msgid "Trusted"
+msgid "Trusted Help"
+msgstr "Trusted"
+
+#: functions/theme-help.php:38
+msgid "Theme Links"
+msgstr "Thema links"
+
+#: functions/theme-help.php:39
+msgid "Theme Page"
+msgstr "Thema pagina"
+
+#: functions/theme-help.php:40
+msgid "Theme Demo"
+msgstr "Thema demo"
+
+#: functions/theme-help.php:41 functions/theme-help.php:57
+msgid "Theme Documentation"
+msgstr "Thema-documentatie"
+
+#: functions/theme-help.php:42
+msgid "Theme Support"
+msgstr "Thema support"
+
+#: functions/theme-help.php:43
+msgid "Rate this theme"
+msgstr "Geef een beoordeling van dit thema"
+
+#: functions/theme-help.php:50
+#, php-format
+msgid "Getting Started with %s"
+msgstr "Aan de slag met %s"
+
+#: functions/theme-help.php:60
+#, fuzzy
+msgid ""
+"Do you need help to setup, configure and customize this theme? Check out the "
+"extensive theme documentation on our website."
+msgstr ""
+"Heeft u hulp nodig bij het instellen, configureren en aanpassen van dit "
+"thema? Bekijk de uitgebreide themadocumentatie op onze website."
+
+#: functions/theme-help.php:64
+#, php-format
+msgid "View %s Documentation"
+msgstr "Toon %s documentatie"
+
+#: functions/theme-help.php:73
+#, php-format
+msgid "%s makes use of the Customizer for the theme settings."
+msgstr "%s maakt gebruik van de Customizer voor de thema instellingen."
+
+#: functions/theme-help.php:77
+msgid "Customize Theme"
+msgstr "Pas het thema aan"
+
+#: functions/theme-help.php:83
+#, fuzzy
+#| msgid "Content"
+msgid "Demo Content"
+msgstr "Inhoud"
+
+#. translators: %s: theme name.
+#: functions/theme-help.php:88
+#, php-format
+msgid "Import %s demo content and Starter Sites."
+msgstr ""
+
+#: functions/theme-help.php:93
+msgid "View Demo Content"
+msgstr ""
+
+#: functions/theme-help.php:96
+msgid "Get Starter Sites Plugin"
+msgstr ""
+
+#: functions/theme-help.php:107
+msgid "Upgrade"
+msgstr "Upgrade"
+
+#: functions/theme-help.php:114
+#, fuzzy
+msgid "GO PRO"
+msgstr "GO PRO"
+
+#: functions/theme-help.php:136
+#, fuzzy, php-format
+msgid "%1$s is proudly brought to you by %2$s. If you like this theme, %3$s :)"
+msgstr ""
+"%1$s wordt met trots naar u gebracht door %2$s. Als je dit thema leuk vindt, "
+"%3$s :)"
+
+#: functions/theme-help.php:136
+msgid "Trusted Review"
+msgstr ""
+
+#: functions/theme-help.php:136
+msgid "rate it"
+msgstr "geef dan een waardering"
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Trusted"
+msgstr "Trusted"
+
+#. Theme URI of the plugin/theme
+#, fuzzy
+msgid "https://uxlthemes.com/theme/trusted/"
+msgstr "https://uxlthemes.com/theme/trusted/"
+
+#. Author of the plugin/theme
+msgid "UXL Themes"
+msgstr "UXL Themes"
+
+#. Author URI of the plugin/theme
+#, fuzzy
+msgid "https://uxlthemes.com"
+msgstr "https://uxlthemes.com"
+
+#. Template Name of the plugin/theme
+#, fuzzy
+msgid "Blank Canvas (Full Width and No Container)"
+msgstr "Blank Canvas (volledige breedte en geen container)"
+
+#. Template Name of the plugin/theme
+msgid "Blank Canvas"
+msgstr "Blank Canvas"
+
+#~ msgid "Disable Static Front Page Content"
+#~ msgstr "Schakel statische voorpagina inhoud uit"
+
+#~ msgid "Requires WooCommerce Plugin."
+#~ msgstr "Heeft de WooCommerce plugin nodig."
+
+#, fuzzy
+#~ msgid "Activate Recent Posts Section"
+#~ msgstr "Activeer de sectie Recente berichten"
+
+#~ msgid "Activate Call-to-action Panel"
+#~ msgstr "Activeer het Oproep-tot-actie paneel"
+
+#~ msgid "Theme Help"
+#~ msgstr "Thema hulp"
+
+#~ msgid ""
+#~ "Trusted WordPress theme is simple yet elegant with a fully responsive "
+#~ "design. It has been designed to be modern and fresh and is suitable for "
+#~ "many type of website, blog or e-commerce store. It is designed to "
+#~ "integrate with the WooCommerce plugin to give your site an attractive "
+#~ "shop front. The colors can be changed in the customizer and previewed "
+#~ "fast in real time. The header has both dark and light styles and features "
+#~ "telephone number as well as WooCommerce account/login/register and "
+#~ "shopping cart. The static front page features 3 (three) featured services "
+#~ "with icon selection, WooCommerce tabs to showcase your products and a "
+#~ "full width phone/call-to-action panel. There is also a Blank Canvas page "
+#~ "template with no page title or sidebar, containing only the masthead and "
+#~ "footer, ideal for use with page builder plugins. The Trusted theme also "
+#~ "comes with 9 (nine) widget areas including 4 (four) distinct sidebars for "
+#~ "blog, page, home page and shop. Other widget areas allow you to add your "
+#~ "own content to the top bar, 3 (three) footer columns and an extra middle "
+#~ "footer area. It also supports a main primary navigation menu and a footer "
+#~ "menu which has support for social media icons/links."
+#~ msgstr ""
+#~ "Trusted WordPress thema is eenvoudig maar elegant met een volledig "
+#~ "responsief ontwerp. Het is ontworpen om modern en fris te zijn en is "
+#~ "geschikt voor vele soorten websites, blogs of e-commerce winkels. Het is "
+#~ "ontworpen om te integreren met de WooCommerce plugin om uw site een "
+#~ "aantrekkelijke winkelpui te geven. De kleuren kunnen in de customizer "
+#~ "worden gewijzigd en in realtime snel worden bekeken. De header heeft "
+#~ "zowel donkere als lichte stijlen en bevat zowel telefoonnummers als "
+#~ "WooCommerce account/login/registratie en winkelwagen. De statische "
+#~ "voorpagina bevat 3 (drie) diensten met pictogrammenselectie, WooCommerce-"
+#~ "tabbladen om uw producten te tonen en een volledige breedte telefoon/call-"
+#~ "to-action panel. Er is ook een Blank Canvas paginasjabloon zonder "
+#~ "paginatitel of zijbalk, met alleen de masttop en voettekst, ideaal voor "
+#~ "gebruik met plugins voor paginabouwers. Het Trusted thema wordt ook "
+#~ "geleverd met 9 (negen) widget gebieden, waaronder 4 (vier) verschillende "
+#~ "sidebars voor blog, pagina, home page en shop. Andere widget gebieden "
+#~ "laten u toe om uw eigen inhoud toe te voegen aan de bovenste balk, 3 "
+#~ "(drie) voettekolommen en een extra middenvoettekolom. Het ondersteunt ook "
+#~ "een primair hoofdnavigatiemenu en een voettekstmenu dat ondersteuning "
+#~ "biedt voor sociale-mediapictogrammen/links."

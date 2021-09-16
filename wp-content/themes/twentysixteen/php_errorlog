@@ -1,0 +1,16 @@
+[06-Jun-2020 20:46:22 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fonexinc/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[01-Dec-2020 21:51:10 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fonexinc/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[01-Dec-2020 21:51:13 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fonexinc/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentysixteen/404.php on line 10
+[27-Dec-2020 11:53:29 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fonexinc/public_html/wp-content/themes/twentysixteen/404.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentysixteen/404.php on line 10

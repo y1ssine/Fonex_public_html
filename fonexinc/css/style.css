@@ -1,0 +1,660 @@
+/*font Variables*/
+/*Color Variables*/
+
+:root {
+    --accent: #1FB6FF;
+    --border-width: 6px;
+    --border-radius: 55px;
+    --font-size: 30px;
+}
+.toggle {
+    position: relative;
+    border: solid var(--border-width) var(--accent);
+    border-radius: var(--border-radius);
+    transition: transform cubic-bezier(0, 0, 0.30, 2) .4s;
+    transform-style: preserve-3d;
+    perspective: 400px;
+    margin: 0 auto;
+}
+
+.toggle>input[type="radio"] {
+    display: none;
+}
+
+.toggle>#choice2:checked~#flap {
+    transform: rotateY(0deg);
+}
+.toggle>#choice1:checked~#flap {
+    transform: rotateY(-180deg);
+}
+
+.toggle>#choice1:checked~#flap>.content {
+    transform: rotateY(-180deg);
+}
+
+
+.toggle>label {
+    display: inline-block;
+    min-width: 170px;
+    #padding: 30px;
+    font-size: var(--font-size);
+    text-align: center;
+    color: var(--accent);
+    cursor: pointer;
+    margin-bottom: 0px;
+}
+
+.toggle>label,
+.toggle>#flap {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.toggle>#flap {
+    position: absolute;
+    top: calc( 0px - var(--border-width));
+    left: 50%;
+    height: calc(100% + var(--border-width) * 2);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--font-size);
+    background-color: var(--accent);
+    border-top-right-radius: var(--border-radius);
+    border-bottom-right-radius: var(--border-radius);
+    transform-style: preserve-3d;
+    transform-origin: left;
+    transition: transform cubic-bezier(0.4, 0, 0.2, 1) .5s;
+}
+
+.toggle>#flap>.content {
+    color: #1b3664;
+    transition: transform 0s linear .25s;
+    transform-style: preserve-3d;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500,700,900");
+  .mb-20, .my-20 {
+      margin-bottom: 2rem !important;
+    }
+    .justify-content-center {
+      -webkit-box-pack: center !important;
+      -webkit-justify-content: center !important;
+      -moz-box-pack: center !important;
+      -ms-flex-pack: center !important;
+      justify-content: center !important;
+    }
+    .flex-column {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+    -webkit-flex-direction: column !important;
+    -moz-box-orient: vertical !important;
+    -moz-box-direction: normal !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    }
+    .d-flex {
+    display: -webkit-box !important;
+    display: -webkit-flex !important;
+    display: -moz-box !important;
+    display: -ms-flexbox !important;
+    display: flex !important;
+    }
+    button {
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    border-right-style: solid;
+    border-right-width: 0px;
+    padding-right: 0px;
+    border-left-width: 0px;
+    padding-left: 0px;
+    cursor: pointer;
+  }
+  button:hover {
+      opacity: 0.8;
+    }
+  #buy-mr-holder .amount {
+      cursor: pointer;
+  }
+  #buy-mr-holder .banner-icons-holder {
+      position: absolute;
+      #top: -1.8rem;
+      #right: -.4rem;
+  }
+
+
+.multi_step_form {
+  /*background: #f6f9fb;*/
+  background: #22205f;
+  display: block;
+  overflow: hidden;
+}
+.multi_step_form #msform {
+  font-family: 'Quicksand', sans-serif!important;
+  font-family: brush!important;
+
+  font-weight: 700!important;
+  text-align: center;
+  position: relative;
+  padding-top: 50px;
+  min-height: 820px;
+  max-width: 1000px;
+
+  margin: 0 auto;
+  background: #ddd;
+  /*background: #22205f;*/
+  z-index: 1;
+}
+.multi_step_form #msform .tittle {
+  text-align: center;
+  padding-bottom: 55px;
+}
+.multi_step_form #msform .tittle h2 {
+  /*font: 500 24px/35px "Roboto", sans-serif;*/
+  /*font-family: revert;*/
+  color: #3f4553;
+  /*color: #22205f;*/
+  padding-bottom: 5px;
+}
+.multi_step_form #msform .tittle p {
+  /*font: 400 16px/28px "Roboto", sans-serif;*/
+  
+  /*color: #5f6771;*/
+  color:#22205f ;
+}
+.multi_step_form #msform fieldset {
+  border: 0;
+  padding: 20px 5% 0;
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+.multi_step_form #msform fieldset:not(:first-of-type) {
+  display: none;
+}
+.multi_step_form #msform fieldset h3 {
+  font: 500 20px/35px "Roboto", sans-serif;
+  /*color: #3f4553;*/
+  color: #22205f!important;
+}
+.multi_step_form #msform fieldset h6 {
+  font: 400 15px/28px "Roboto", sans-serif;
+  color: #5f6771;
+  padding-bottom: 30px;
+}
+.multi_step_form #msform fieldset .intl-tel-input {
+  display: block;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+.multi_step_form #msform fieldset .intl-tel-input .flag-container .selected-flag {
+  padding: 0 20px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+  width: 65px;
+}
+.multi_step_form #msform fieldset .intl-tel-input .flag-container .selected-flag .iti-arrow {
+  border: 0;
+}
+.multi_step_form #msform fieldset .intl-tel-input .flag-container .selected-flag .iti-arrow:after {
+  content: "\f35f";
+  position: absolute;
+  top: 0;
+  right: 0;
+  font: normal normal normal 24px/7px Ionicons;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset #phone {
+  padding-left: 80px;
+}
+.multi_step_form #msform fieldset .form-group {
+  padding: 0 10px;
+}
+.multi_step_form #msform fieldset .fg_2, .multi_step_form #msform fieldset .fg_3 {
+  padding-top: 10px;
+  display: block;
+  overflow: hidden;
+}
+.multi_step_form #msform fieldset .fg_3 {
+  padding-bottom: 70px;
+}
+/*input box style*/
+.multi_step_form #msform fieldset .form-control, .multi_step_form #msform fieldset .product_select {
+  /*border-radius: 3px;*/
+  /*border: 1px solid #d8e1e7;*/
+  padding: 0 20px;
+  height: auto;
+  /*font: 400 15px/48px "Roboto", sans-serif;*/
+
+  color: #5f6771;
+  /*box-shadow: none;*/
+  outline: none;
+  width: 100%;
+
+  border-radius: 2rem;
+  border: none;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+  font-family: 400 15px/48px 'Quicksand', sans-serif;
+  font-family: brush;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.multi_step_form #msform fieldset .form-control.placeholder, .multi_step_form #msform fieldset .product_select.placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control:-moz-placeholder, .multi_step_form #msform fieldset .product_select:-moz-placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control::-moz-placeholder, .multi_step_form #msform fieldset .product_select::-moz-placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control::-webkit-input-placeholder, .multi_step_form #msform fieldset .product_select::-webkit-input-placeholder {
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .form-control:hover, .multi_step_form #msform fieldset .form-control:focus, .multi_step_form #msform fieldset .product_select:hover, .multi_step_form #msform fieldset .product_select:focus {
+  border-color: #405867;
+}
+.multi_step_form #msform fieldset .form-control:focus.placeholder, .multi_step_form #msform fieldset .product_select:focus.placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .form-control:focus:-moz-placeholder, .multi_step_form #msform fieldset .product_select:focus:-moz-placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .form-control:focus::-moz-placeholder, .multi_step_form #msform fieldset .product_select:focus::-moz-placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .form-control:focus::-webkit-input-placeholder, .multi_step_form #msform fieldset .product_select:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.multi_step_form #msform fieldset .product_select:after {
+  display: none;
+}
+.multi_step_form #msform fieldset .product_select:before {
+  content: "\f35f";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font: normal normal normal 24px/48px Ionicons;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .product_select .list {
+  width: 100%;
+}
+.multi_step_form #msform fieldset .done_text {
+  padding-top: 40px;
+}
+.multi_step_form #msform fieldset .done_text .don_icon {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  font-size: 22px;
+  margin-bottom: 10px;
+  background: #405867;
+  display: inline-block;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+.multi_step_form #msform fieldset .done_text h6 {
+  line-height: 23px;
+}
+.multi_step_form #msform fieldset .code_group {
+  margin-bottom: 60px;
+}
+.multi_step_form #msform fieldset .code_group .form-control {
+  border: 0;
+  border-bottom: 1px solid #a1a7ac;
+  border-radius: 0;
+  display: inline-block;
+  width: 30px;
+  font-size: 30px;
+  color: #5f6771;
+  padding: 0;
+  margin-right: 7px;
+  text-align: center;
+  line-height: 1;
+}
+.multi_step_form #msform fieldset .passport {
+  margin-top: -10px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.multi_step_form #msform fieldset .passport .don_icon {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  font-size: 22px;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  background: #405867;
+  display: inline-block;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+.multi_step_form #msform fieldset .passport h4 {
+  font: 500 15px/23px "Roboto", sans-serif;
+  color: #5f6771;
+  padding: 0;
+}
+.multi_step_form #msform fieldset .input-group {
+  padding-bottom: 40px;
+}
+.multi_step_form #msform fieldset .input-group .custom-file {
+  width: 100%;
+  height: auto;
+}
+.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label {
+  width: 168px;
+  border-radius: 5px;
+  cursor: pointer;
+  font: 700 14px/40px "Roboto", sans-serif;
+  border: 1px solid #99a2a8;
+  text-align: center;
+  transition: all 300ms linear 0s;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label i {
+  font-size: 20px;
+  padding-right: 10px;
+}
+.multi_step_form #msform fieldset .input-group .custom-file .custom-file-label:hover, .multi_step_form #msform fieldset .input-group .custom-file .custom-file-label:focus {
+  background: #405867;
+  border-color: #405867;
+  color: #fff;
+}
+.multi_step_form #msform fieldset .input-group .custom-file input {
+  display: none;
+}
+.multi_step_form #msform fieldset .file_added {
+  text-align: left;
+  padding-left: 190px;
+  padding-bottom: 60px;
+}
+.multi_step_form #msform fieldset .file_added li {
+  font: 400 15px/28px "Roboto", sans-serif;
+  color: #5f6771;
+}
+.multi_step_form #msform fieldset .file_added li a {
+  color: #405867;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  padding-left: 15px;
+}
+.multi_step_form #msform fieldset .file_added li a i {
+  font-size: 22px;
+  padding-right: 8px;
+  position: absolute;
+  left: 0;
+  transform: rotate(20deg);
+}
+.multi_step_form #msform #progressbar {
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.multi_step_form #msform #progressbar li {
+  list-style-type: none;
+  color: #99a2a8;
+  font-size: 9px;
+  width: calc(100%/4);
+  float: left;
+  position: relative;
+  font: 800 15px/1 "Roboto", sans-serif;
+}
+.multi_step_form #msform #progressbar li:nth-child(2):before {
+  content: "\f1fa";
+}
+.multi_step_form #msform #progressbar li:nth-child(3):before {
+  content: "\f10b";
+}
+.multi_step_form #msform #progressbar li:nth-child(4):before {
+  content: "\f50d"; 
+}
+.multi_step_form #msform #progressbar li:before {
+  content: "\f12f";
+  font: normal normal normal 30px/50px Ionicons;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  background: #eaf0f4;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+}
+.multi_step_form #msform #progressbar li:after {
+  content: '';
+  width: 100%;
+  height: 10px;
+  background: #eaf0f4;
+  position: absolute;
+  left: -50%;
+  top: 21px;
+  z-index: -1;
+}
+.multi_step_form #msform #progressbar li:last-child:after {
+  width: 150%;
+}
+.multi_step_form #msform #progressbar li.active {
+  color: #405867;
+}
+/*color of progressbar*/
+.multi_step_form #msform #progressbar li.active:before, .multi_step_form #msform #progressbar li.active:after {
+  background: blue;
+  color: white;
+}
+.multi_step_form #msform .action-button {
+  background: #22205f;
+  /*background: #405867;*/
+  color: white;
+  border: 0 none;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 130px;
+  font: 700 14px/40px "Roboto", sans-serif;
+  border: 1px solid #405867;
+  margin: 0 5px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.multi_step_form #msform .action-button:hover, .multi_step_form #msform .action-button:focus {
+  background: #2220FF;
+  border-color: #2220FF;
+  /*background: #405867;*/
+  /*border-color: #405867;*/
+}
+.multi_step_form #msform .previous_button {
+  background: transparent;
+  color: #99a2a8;
+  border-color: #99a2a8;
+}
+.multi_step_form #msform .previous_button:hover, .multi_step_form #msform .previous_button:focus {
+  background: #405867;
+  border-color: #405867;
+  color: #fff;
+}
+#progressbar {
+  padding-left: 0px;
+}
+.country-select{
+  width: 100%;
+}
+select{
+  border-radius: 3px;
+  border: 1px solid #d8e1e7;
+  padding: 6px !important;
+  height: auto;
+  font: 400 15px/48px "Roboto", sans-serif;
+  color: #5f6771;
+  box-shadow: none;
+  outline: none;
+  width: 100%;
+  padding-left: 25%;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.width50{
+  width: 50%;
+}
+
+input:required {
+  box-shadow: 4px 4px 20px rgba(200, 0, 0, 0.85);
+}
+input{
+    height: 35px !important;
+}
+/**
+ * style input elements that have a required
+ * attribute and a focus state
+ */
+input:required:focus {
+  border: 1px solid red;
+  outline: none;
+}
+
+/**
+ * style input elements that have a required
+ * attribute and a hover state
+ */
+input:required:hover {
+  opacity: 1;
+}
+
+.custom-btn-group-outline {
+    border: 2px solid rgb(204, 204, 204);
+    padding: 3px;
+}
+.btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+#btn_local_search_by_areacode, #btn_local_search_by_city {
+    min-width: 5em;
+}
+#btn_local_search_by_city, #btn_local_search_by_areacode {
+    color: #8492a6;
+    font-weight: 700;
+}
+.btn-group > .btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.btn-group > .btn:first-child {
+    margin-left: 0;
+}
+.btn.btn-uv-blue {
+    color: #fff !important;
+}
+.btn-uv-blue {
+    background-color: rgb(32,182,255);
+    /*background-color: #ec1c3a;*/
+    background-color: #1FB6FF;
+    color: #fff;
+    font-weight: 700;
+}
+.btn-group-lg > .btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+        border-top-right-radius: 6px;
+        border-bottom-right-radius: 6px;
+}
+
+
+/*DID divs*/
+.number-result-item-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.number-result-item label {
+    align-items: center;
+    min-height: 2.22em;
+    width: 11.1em;
+    padding: 0.6em 1.35em 0.6em 0.85em;
+    padding-top: 0.6em;
+    padding-bottom: 0.6em;
+    border-radius: 3px;
+    background-color: rgb(239,242,247);
+    color: #8492a6;
+    margin: 0.25em 0.45em 0.25em 0.45em;
+    letter-spacing: 2px;
+}
+.custom-container label {
+    color: #3c4858;
+}
+.font-bold {
+    font-weight: 700;
+}
+.body-bold {
+    color: #3c4858;
+}
+.hide {
+    display: none !important;
+}
+
+.blue-radio {
+    color: #fff;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fal, .far, .fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+input[type="radio"] + .fa-check-circle::before, input[type="radio"] + label > .fa-check-circle::before {
+    content: "\f111";
+}
+.fa-check-circle::before {
+    content: "\f058";
+}
+::after, ::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.blue-radio {
+    color: #fff;
+}
+.fa, .fas {
+    font-weight: 900;
+}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+.fa, .fab, .fal, .far, .fas {
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+}
+#step1_form label{
+  font-weight: 700!important;
+
+}
+.form-control{
+    border-radius: 2rem;
+  border: none;
+  box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.11);
+  font-family: 400 15px/48px 'Quicksand', sans-serif;
+  font-family: brush;
+  font-weight: 600;
+  font-size: 1.1rem;
+}

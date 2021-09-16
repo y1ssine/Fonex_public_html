@@ -1,0 +1,1 @@
+[19-Nov-2018 08:42:24 CST6CDT] PHP Fatal error:  Call to undefined function is_robots() in /home/fonexinc/public_html/wp-includes/template-loader.php on line 28

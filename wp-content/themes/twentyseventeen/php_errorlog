@@ -1,0 +1,52 @@
+[06-Jun-2020 12:06:04 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[06-Jun-2020 17:28:45 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[06-Jun-2020 18:40:09 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[10-Jun-2020 06:04:28 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory() in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/functions.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/functions.php on line 16
+[25-Dec-2020 22:18:12 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_part() in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/footer.php:22
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/footer.php on line 22
+[29-Dec-2020 14:20:10 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[02-Jan-2021 12:11:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-Jan-2021 20:43:58 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/index.php on line 18
+[06-Jan-2021 22:27:02 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[06-Jan-2021 23:07:36 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/index.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/index.php on line 18
+[02-Mar-2021 21:04:25 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/fonexinc/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[12-May-2021 11:39:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/fonexinc.com/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/fonexinc.com/public_html/wp-content/themes/twentyseventeen/404.php on line 13
+[03-Jul-2021 11:00:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/customer/www/fonexinc.com/public_html/wp-content/themes/twentyseventeen/404.php:13
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/fonexinc.com/public_html/wp-content/themes/twentyseventeen/404.php on line 13

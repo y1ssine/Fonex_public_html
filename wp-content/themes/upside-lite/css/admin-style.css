@@ -1,0 +1,7 @@
+#setting-error-upside, #setting-error-tgmpa {
+    clear:both;
+    display: block;
+}
+.upside-icon {
+    background-image: url('../images/logo.png') !important;
+}

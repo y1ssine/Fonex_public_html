@@ -1,0 +1,16 @@
+///////////////////////////////////////////
+    Upside lite theme - Change log
+///////////////////////////////////////////
+
+#1.0.2 ( August 31, 2016 )
+    * Remove custom css from theme
+    * Update sanitizing for field in theme customize
+
+#1.0.1 ( August 9, 2016 )
+    * Update wooCommerce template files.
+    * Update use core logo feature of wordpress.
+    * Add escape for database output.
+    * Update some css.
+
+# 1.0.0 ( February 24, 2016 )
+    Initial release

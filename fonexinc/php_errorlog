@@ -1,0 +1,40 @@
+[01-Sep-2021 16:45:45 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php on line 2
+[01-Sep-2021 16:45:45 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php on line 608
+[01-Sep-2021 16:46:23 UTC] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server.non_empty_field.login] Field 'login' must not be empty. in /home/customer/www/fonexinc.com/public_html/fonexinc/SignupHelper.php:77
+Stack trace:
+#0 /home/customer/www/fonexinc.com/public_html/fonexinc/SignupHelper.php(77): SoapClient->__call('login', Array)
+#1 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(495): SignupHelper::make_um_call('get_menu_list', 'AutoAttendant', Array)
+#2 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(419): set_period()
+#3 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(172): IVR(Array, Array)
+#4 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(15): set_opt(Array)
+#5 {main}
+  thrown in /home/customer/www/fonexinc.com/public_html/fonexinc/SignupHelper.php on line 77
+[02-Sep-2021 19:43:06 UTC] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server.non_empty_field.login] Field 'login' must not be empty. in /home/customer/www/fonexinc.com/public_html/fonexinc/SignupHelper.php:77
+Stack trace:
+#0 /home/customer/www/fonexinc.com/public_html/fonexinc/SignupHelper.php(77): SoapClient->__call('login', Array)
+#1 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(495): SignupHelper::make_um_call('get_menu_list', 'AutoAttendant', Array)
+#2 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(419): set_period()
+#3 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(172): IVR(Array, Array)
+#4 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(15): set_opt(Array)
+#5 {main}
+  thrown in /home/customer/www/fonexinc.com/public_html/fonexinc/SignupHelper.php on line 77
+[03-Sep-2021 16:02:28 UTC] PHP Deprecated:  __autoload() is deprecated, use spl_autoload_register() instead in /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php on line 2
+[03-Sep-2021 16:02:28 UTC] PHP Deprecated:  Array and string offset access syntax with curly braces is deprecated in /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php on line 608
+[16-Sep-2021 14:41:46 UTC] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server.non_empty_field.login] Field 'login' must not be empty. in /home/customer/www/fonexinc.com/public_html/fonexinc/SignupHelper.php:77
+Stack trace:
+#0 /home/customer/www/fonexinc.com/public_html/fonexinc/SignupHelper.php(77): SoapClient->__call('login', Array)
+#1 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(495): SignupHelper::make_um_call('get_menu_list', 'AutoAttendant', Array)
+#2 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(429): set_period()
+#3 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(174): recepIVR(Array, Array)
+#4 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(15): set_opt(Array)
+#5 {main}
+  thrown in /home/customer/www/fonexinc.com/public_html/fonexinc/SignupHelper.php on line 77
+[16-Sep-2021 14:43:29 UTC] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server.non_empty_field.login] Field 'login' must not be empty. in /home/customer/www/fonexinc.com/public_html/fonexinc/SignupHelper.php:77
+Stack trace:
+#0 /home/customer/www/fonexinc.com/public_html/fonexinc/SignupHelper.php(77): SoapClient->__call('login', Array)
+#1 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(495): SignupHelper::make_um_call('get_menu_list', 'AutoAttendant', Array)
+#2 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(429): set_period()
+#3 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(174): recepIVR(Array, Array)
+#4 /home/customer/www/fonexinc.com/public_html/fonexinc/functions.php(15): set_opt(Array)
+#5 {main}
+  thrown in /home/customer/www/fonexinc.com/public_html/fonexinc/SignupHelper.php on line 77
